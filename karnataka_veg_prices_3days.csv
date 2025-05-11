@@ -1,0 +1,1801 @@
+date,market_name,vegetable_name,min_price,max_price
+2025-05-10,Bangalore,Tomato,26,32
+2025-05-10,Bangalore,Potato,21,39
+2025-05-10,Bangalore,Onion,12,22
+2025-05-10,Bangalore,Carrot,17,32
+2025-05-10,Bangalore,Cabbage,26,44
+2025-05-10,Bangalore,Cauliflower,15,22
+2025-05-10,Bangalore,Beans,18,26
+2025-05-10,Bangalore,Brinjal,24,44
+2025-05-10,Bangalore,Lady Finger,25,36
+2025-05-10,Bangalore,Spinach,27,36
+2025-05-10,Bangalore,Coriander,14,34
+2025-05-10,Bangalore,Capsicum,15,26
+2025-05-10,Bangalore,Green Chili,24,39
+2025-05-10,Bangalore,Pumpkin,24,29
+2025-05-10,Bangalore,Radish,19,28
+2025-05-10,Bangalore,Bitter Gourd,23,40
+2025-05-10,Bangalore,Bottle Gourd,19,25
+2025-05-10,Bangalore,Cucumber,19,24
+2025-05-10,Bangalore,Drumstick,27,45
+2025-05-10,Bangalore,Garlic,18,33
+2025-05-10,Mysore,Tomato,29,40
+2025-05-10,Mysore,Potato,23,32
+2025-05-10,Mysore,Onion,10,26
+2025-05-10,Mysore,Carrot,30,50
+2025-05-10,Mysore,Cabbage,15,26
+2025-05-10,Mysore,Cauliflower,10,27
+2025-05-10,Mysore,Beans,11,21
+2025-05-10,Mysore,Brinjal,20,31
+2025-05-10,Mysore,Lady Finger,22,34
+2025-05-10,Mysore,Spinach,18,24
+2025-05-10,Mysore,Coriander,30,37
+2025-05-10,Mysore,Capsicum,30,37
+2025-05-10,Mysore,Green Chili,11,31
+2025-05-10,Mysore,Pumpkin,18,36
+2025-05-10,Mysore,Radish,29,39
+2025-05-10,Mysore,Bitter Gourd,22,27
+2025-05-10,Mysore,Bottle Gourd,16,29
+2025-05-10,Mysore,Cucumber,17,23
+2025-05-10,Mysore,Drumstick,25,38
+2025-05-10,Mysore,Garlic,19,39
+2025-05-10,Mangalore,Tomato,30,44
+2025-05-10,Mangalore,Potato,24,30
+2025-05-10,Mangalore,Onion,16,35
+2025-05-10,Mangalore,Carrot,25,40
+2025-05-10,Mangalore,Cabbage,16,33
+2025-05-10,Mangalore,Cauliflower,22,41
+2025-05-10,Mangalore,Beans,19,39
+2025-05-10,Mangalore,Brinjal,10,22
+2025-05-10,Mangalore,Lady Finger,20,33
+2025-05-10,Mangalore,Spinach,19,24
+2025-05-10,Mangalore,Coriander,24,38
+2025-05-10,Mangalore,Capsicum,27,47
+2025-05-10,Mangalore,Green Chili,24,42
+2025-05-10,Mangalore,Pumpkin,11,18
+2025-05-10,Mangalore,Radish,17,36
+2025-05-10,Mangalore,Bitter Gourd,15,20
+2025-05-10,Mangalore,Bottle Gourd,14,22
+2025-05-10,Mangalore,Cucumber,16,22
+2025-05-10,Mangalore,Drumstick,10,26
+2025-05-10,Mangalore,Garlic,22,42
+2025-05-10,Hubli,Tomato,27,36
+2025-05-10,Hubli,Potato,28,40
+2025-05-10,Hubli,Onion,27,38
+2025-05-10,Hubli,Carrot,10,17
+2025-05-10,Hubli,Cabbage,12,31
+2025-05-10,Hubli,Cauliflower,25,34
+2025-05-10,Hubli,Beans,28,35
+2025-05-10,Hubli,Brinjal,25,30
+2025-05-10,Hubli,Lady Finger,28,41
+2025-05-10,Hubli,Spinach,12,18
+2025-05-10,Hubli,Coriander,14,29
+2025-05-10,Hubli,Capsicum,20,27
+2025-05-10,Hubli,Green Chili,11,30
+2025-05-10,Hubli,Pumpkin,29,39
+2025-05-10,Hubli,Radish,20,29
+2025-05-10,Hubli,Bitter Gourd,30,49
+2025-05-10,Hubli,Bottle Gourd,23,40
+2025-05-10,Hubli,Cucumber,27,41
+2025-05-10,Hubli,Drumstick,19,36
+2025-05-10,Hubli,Garlic,19,25
+2025-05-10,Belgaum,Tomato,30,46
+2025-05-10,Belgaum,Potato,27,44
+2025-05-10,Belgaum,Onion,11,29
+2025-05-10,Belgaum,Carrot,25,34
+2025-05-10,Belgaum,Cabbage,25,35
+2025-05-10,Belgaum,Cauliflower,21,37
+2025-05-10,Belgaum,Beans,26,41
+2025-05-10,Belgaum,Brinjal,16,36
+2025-05-10,Belgaum,Lady Finger,28,41
+2025-05-10,Belgaum,Spinach,12,23
+2025-05-10,Belgaum,Coriander,18,38
+2025-05-10,Belgaum,Capsicum,15,27
+2025-05-10,Belgaum,Green Chili,13,23
+2025-05-10,Belgaum,Pumpkin,29,38
+2025-05-10,Belgaum,Radish,11,17
+2025-05-10,Belgaum,Bitter Gourd,18,36
+2025-05-10,Belgaum,Bottle Gourd,27,46
+2025-05-10,Belgaum,Cucumber,11,27
+2025-05-10,Belgaum,Drumstick,14,26
+2025-05-10,Belgaum,Garlic,21,31
+2025-05-10,Davanagere,Tomato,24,40
+2025-05-10,Davanagere,Potato,13,28
+2025-05-10,Davanagere,Onion,16,33
+2025-05-10,Davanagere,Carrot,12,17
+2025-05-10,Davanagere,Cabbage,30,36
+2025-05-10,Davanagere,Cauliflower,26,36
+2025-05-10,Davanagere,Beans,23,41
+2025-05-10,Davanagere,Brinjal,30,37
+2025-05-10,Davanagere,Lady Finger,16,21
+2025-05-10,Davanagere,Spinach,15,25
+2025-05-10,Davanagere,Coriander,25,40
+2025-05-10,Davanagere,Capsicum,12,30
+2025-05-10,Davanagere,Green Chili,21,36
+2025-05-10,Davanagere,Pumpkin,25,43
+2025-05-10,Davanagere,Radish,29,39
+2025-05-10,Davanagere,Bitter Gourd,11,17
+2025-05-10,Davanagere,Bottle Gourd,29,46
+2025-05-10,Davanagere,Cucumber,25,33
+2025-05-10,Davanagere,Drumstick,10,18
+2025-05-10,Davanagere,Garlic,10,28
+2025-05-10,Bellary,Tomato,20,39
+2025-05-10,Bellary,Potato,22,42
+2025-05-10,Bellary,Onion,12,26
+2025-05-10,Bellary,Carrot,27,32
+2025-05-10,Bellary,Cabbage,18,27
+2025-05-10,Bellary,Cauliflower,27,40
+2025-05-10,Bellary,Beans,16,21
+2025-05-10,Bellary,Brinjal,25,33
+2025-05-10,Bellary,Lady Finger,24,35
+2025-05-10,Bellary,Spinach,30,40
+2025-05-10,Bellary,Coriander,23,32
+2025-05-10,Bellary,Capsicum,17,22
+2025-05-10,Bellary,Green Chili,11,24
+2025-05-10,Bellary,Pumpkin,18,34
+2025-05-10,Bellary,Radish,21,31
+2025-05-10,Bellary,Bitter Gourd,11,26
+2025-05-10,Bellary,Bottle Gourd,12,32
+2025-05-10,Bellary,Cucumber,25,44
+2025-05-10,Bellary,Drumstick,16,35
+2025-05-10,Bellary,Garlic,12,23
+2025-05-10,Tumkur,Tomato,13,24
+2025-05-10,Tumkur,Potato,14,27
+2025-05-10,Tumkur,Onion,24,35
+2025-05-10,Tumkur,Carrot,29,44
+2025-05-10,Tumkur,Cabbage,13,32
+2025-05-10,Tumkur,Cauliflower,19,29
+2025-05-10,Tumkur,Beans,21,36
+2025-05-10,Tumkur,Brinjal,24,40
+2025-05-10,Tumkur,Lady Finger,12,18
+2025-05-10,Tumkur,Spinach,17,36
+2025-05-10,Tumkur,Coriander,14,22
+2025-05-10,Tumkur,Capsicum,21,39
+2025-05-10,Tumkur,Green Chili,15,28
+2025-05-10,Tumkur,Pumpkin,21,27
+2025-05-10,Tumkur,Radish,18,27
+2025-05-10,Tumkur,Bitter Gourd,16,25
+2025-05-10,Tumkur,Bottle Gourd,24,34
+2025-05-10,Tumkur,Cucumber,24,30
+2025-05-10,Tumkur,Drumstick,12,23
+2025-05-10,Tumkur,Garlic,15,33
+2025-05-10,Shimoga,Tomato,19,24
+2025-05-10,Shimoga,Potato,30,46
+2025-05-10,Shimoga,Onion,21,41
+2025-05-10,Shimoga,Carrot,17,34
+2025-05-10,Shimoga,Cabbage,24,31
+2025-05-10,Shimoga,Cauliflower,28,35
+2025-05-10,Shimoga,Beans,27,34
+2025-05-10,Shimoga,Brinjal,13,18
+2025-05-10,Shimoga,Lady Finger,30,37
+2025-05-10,Shimoga,Spinach,11,17
+2025-05-10,Shimoga,Coriander,27,37
+2025-05-10,Shimoga,Capsicum,12,18
+2025-05-10,Shimoga,Green Chili,14,30
+2025-05-10,Shimoga,Pumpkin,19,27
+2025-05-10,Shimoga,Radish,22,31
+2025-05-10,Shimoga,Bitter Gourd,10,21
+2025-05-10,Shimoga,Bottle Gourd,12,20
+2025-05-10,Shimoga,Cucumber,23,30
+2025-05-10,Shimoga,Drumstick,22,32
+2025-05-10,Shimoga,Garlic,22,37
+2025-05-10,Raichur,Tomato,16,29
+2025-05-10,Raichur,Potato,15,35
+2025-05-10,Raichur,Onion,27,35
+2025-05-10,Raichur,Carrot,21,29
+2025-05-10,Raichur,Cabbage,27,39
+2025-05-10,Raichur,Cauliflower,26,44
+2025-05-10,Raichur,Beans,25,40
+2025-05-10,Raichur,Brinjal,12,24
+2025-05-10,Raichur,Lady Finger,23,42
+2025-05-10,Raichur,Spinach,20,34
+2025-05-10,Raichur,Coriander,11,17
+2025-05-10,Raichur,Capsicum,25,31
+2025-05-10,Raichur,Green Chili,25,42
+2025-05-10,Raichur,Pumpkin,25,42
+2025-05-10,Raichur,Radish,15,29
+2025-05-10,Raichur,Bitter Gourd,19,38
+2025-05-10,Raichur,Bottle Gourd,22,27
+2025-05-10,Raichur,Cucumber,14,24
+2025-05-10,Raichur,Drumstick,10,30
+2025-05-10,Raichur,Garlic,19,39
+2025-05-10,Bidar,Tomato,13,24
+2025-05-10,Bidar,Potato,16,21
+2025-05-10,Bidar,Onion,28,42
+2025-05-10,Bidar,Carrot,15,20
+2025-05-10,Bidar,Cabbage,28,39
+2025-05-10,Bidar,Cauliflower,24,36
+2025-05-10,Bidar,Beans,14,33
+2025-05-10,Bidar,Brinjal,20,27
+2025-05-10,Bidar,Lady Finger,27,41
+2025-05-10,Bidar,Spinach,18,31
+2025-05-10,Bidar,Coriander,28,41
+2025-05-10,Bidar,Capsicum,28,44
+2025-05-10,Bidar,Green Chili,19,27
+2025-05-10,Bidar,Pumpkin,15,29
+2025-05-10,Bidar,Radish,22,34
+2025-05-10,Bidar,Bitter Gourd,13,33
+2025-05-10,Bidar,Bottle Gourd,18,29
+2025-05-10,Bidar,Cucumber,20,30
+2025-05-10,Bidar,Drumstick,28,36
+2025-05-10,Bidar,Garlic,23,36
+2025-05-10,Bijapur,Tomato,20,32
+2025-05-10,Bijapur,Potato,20,32
+2025-05-10,Bijapur,Onion,21,36
+2025-05-10,Bijapur,Carrot,11,20
+2025-05-10,Bijapur,Cabbage,28,36
+2025-05-10,Bijapur,Cauliflower,28,41
+2025-05-10,Bijapur,Beans,14,24
+2025-05-10,Bijapur,Brinjal,20,39
+2025-05-10,Bijapur,Lady Finger,26,32
+2025-05-10,Bijapur,Spinach,11,26
+2025-05-10,Bijapur,Coriander,14,27
+2025-05-10,Bijapur,Capsicum,30,47
+2025-05-10,Bijapur,Green Chili,15,33
+2025-05-10,Bijapur,Pumpkin,12,25
+2025-05-10,Bijapur,Radish,22,27
+2025-05-10,Bijapur,Bitter Gourd,22,41
+2025-05-10,Bijapur,Bottle Gourd,11,17
+2025-05-10,Bijapur,Cucumber,30,42
+2025-05-10,Bijapur,Drumstick,25,40
+2025-05-10,Bijapur,Garlic,11,18
+2025-05-10,Chikmagalur,Tomato,30,46
+2025-05-10,Chikmagalur,Potato,23,29
+2025-05-10,Chikmagalur,Onion,24,36
+2025-05-10,Chikmagalur,Carrot,25,37
+2025-05-10,Chikmagalur,Cabbage,28,36
+2025-05-10,Chikmagalur,Cauliflower,18,36
+2025-05-10,Chikmagalur,Beans,15,33
+2025-05-10,Chikmagalur,Brinjal,24,38
+2025-05-10,Chikmagalur,Lady Finger,16,30
+2025-05-10,Chikmagalur,Spinach,27,42
+2025-05-10,Chikmagalur,Coriander,12,26
+2025-05-10,Chikmagalur,Capsicum,13,22
+2025-05-10,Chikmagalur,Green Chili,29,42
+2025-05-10,Chikmagalur,Pumpkin,21,34
+2025-05-10,Chikmagalur,Radish,13,30
+2025-05-10,Chikmagalur,Bitter Gourd,28,38
+2025-05-10,Chikmagalur,Bottle Gourd,11,24
+2025-05-10,Chikmagalur,Cucumber,12,31
+2025-05-10,Chikmagalur,Drumstick,14,19
+2025-05-10,Chikmagalur,Garlic,10,25
+2025-05-10,Hassan,Tomato,26,45
+2025-05-10,Hassan,Potato,25,35
+2025-05-10,Hassan,Onion,10,21
+2025-05-10,Hassan,Carrot,27,34
+2025-05-10,Hassan,Cabbage,30,38
+2025-05-10,Hassan,Cauliflower,22,28
+2025-05-10,Hassan,Beans,25,42
+2025-05-10,Hassan,Brinjal,15,23
+2025-05-10,Hassan,Lady Finger,18,35
+2025-05-10,Hassan,Spinach,19,36
+2025-05-10,Hassan,Coriander,19,37
+2025-05-10,Hassan,Capsicum,16,35
+2025-05-10,Hassan,Green Chili,16,36
+2025-05-10,Hassan,Pumpkin,23,34
+2025-05-10,Hassan,Radish,17,35
+2025-05-10,Hassan,Bitter Gourd,15,23
+2025-05-10,Hassan,Bottle Gourd,18,26
+2025-05-10,Hassan,Cucumber,30,45
+2025-05-10,Hassan,Drumstick,27,39
+2025-05-10,Hassan,Garlic,12,25
+2025-05-10,Mandya,Tomato,28,42
+2025-05-10,Mandya,Potato,21,41
+2025-05-10,Mandya,Onion,15,35
+2025-05-10,Mandya,Carrot,11,29
+2025-05-10,Mandya,Cabbage,16,27
+2025-05-10,Mandya,Cauliflower,23,40
+2025-05-10,Mandya,Beans,11,26
+2025-05-10,Mandya,Brinjal,11,21
+2025-05-10,Mandya,Lady Finger,22,32
+2025-05-10,Mandya,Spinach,16,22
+2025-05-10,Mandya,Coriander,22,35
+2025-05-10,Mandya,Capsicum,22,37
+2025-05-10,Mandya,Green Chili,30,47
+2025-05-10,Mandya,Pumpkin,25,33
+2025-05-10,Mandya,Radish,29,44
+2025-05-10,Mandya,Bitter Gourd,20,28
+2025-05-10,Mandya,Bottle Gourd,10,28
+2025-05-10,Mandya,Cucumber,16,29
+2025-05-10,Mandya,Drumstick,23,29
+2025-05-10,Mandya,Garlic,19,39
+2025-05-10,Gulbarga,Tomato,28,39
+2025-05-10,Gulbarga,Potato,25,44
+2025-05-10,Gulbarga,Onion,29,48
+2025-05-10,Gulbarga,Carrot,19,39
+2025-05-10,Gulbarga,Cabbage,22,36
+2025-05-10,Gulbarga,Cauliflower,12,21
+2025-05-10,Gulbarga,Beans,30,47
+2025-05-10,Gulbarga,Brinjal,27,44
+2025-05-10,Gulbarga,Lady Finger,22,30
+2025-05-10,Gulbarga,Spinach,25,30
+2025-05-10,Gulbarga,Coriander,27,39
+2025-05-10,Gulbarga,Capsicum,13,32
+2025-05-10,Gulbarga,Green Chili,11,18
+2025-05-10,Gulbarga,Pumpkin,30,48
+2025-05-10,Gulbarga,Radish,28,40
+2025-05-10,Gulbarga,Bitter Gourd,26,39
+2025-05-10,Gulbarga,Bottle Gourd,20,39
+2025-05-10,Gulbarga,Cucumber,16,31
+2025-05-10,Gulbarga,Drumstick,20,36
+2025-05-10,Gulbarga,Garlic,21,29
+2025-05-10,Kolar,Tomato,15,30
+2025-05-10,Kolar,Potato,23,43
+2025-05-10,Kolar,Onion,23,41
+2025-05-10,Kolar,Carrot,28,33
+2025-05-10,Kolar,Cabbage,19,39
+2025-05-10,Kolar,Cauliflower,16,36
+2025-05-10,Kolar,Beans,20,25
+2025-05-10,Kolar,Brinjal,23,40
+2025-05-10,Kolar,Lady Finger,12,31
+2025-05-10,Kolar,Spinach,29,36
+2025-05-10,Kolar,Coriander,30,50
+2025-05-10,Kolar,Capsicum,21,32
+2025-05-10,Kolar,Green Chili,12,27
+2025-05-10,Kolar,Pumpkin,16,31
+2025-05-10,Kolar,Radish,12,29
+2025-05-10,Kolar,Bitter Gourd,22,30
+2025-05-10,Kolar,Bottle Gourd,28,46
+2025-05-10,Kolar,Cucumber,12,21
+2025-05-10,Kolar,Drumstick,16,25
+2025-05-10,Kolar,Garlic,23,43
+2025-05-10,Chitradurga,Tomato,27,33
+2025-05-10,Chitradurga,Potato,17,33
+2025-05-10,Chitradurga,Onion,19,36
+2025-05-10,Chitradurga,Carrot,21,28
+2025-05-10,Chitradurga,Cabbage,19,32
+2025-05-10,Chitradurga,Cauliflower,17,34
+2025-05-10,Chitradurga,Beans,16,31
+2025-05-10,Chitradurga,Brinjal,18,27
+2025-05-10,Chitradurga,Lady Finger,15,33
+2025-05-10,Chitradurga,Spinach,15,20
+2025-05-10,Chitradurga,Coriander,19,39
+2025-05-10,Chitradurga,Capsicum,10,18
+2025-05-10,Chitradurga,Green Chili,20,32
+2025-05-10,Chitradurga,Pumpkin,24,39
+2025-05-10,Chitradurga,Radish,26,44
+2025-05-10,Chitradurga,Bitter Gourd,23,43
+2025-05-10,Chitradurga,Bottle Gourd,26,46
+2025-05-10,Chitradurga,Cucumber,19,27
+2025-05-10,Chitradurga,Drumstick,22,37
+2025-05-10,Chitradurga,Garlic,15,32
+2025-05-10,Udupi,Tomato,12,32
+2025-05-10,Udupi,Potato,10,20
+2025-05-10,Udupi,Onion,13,25
+2025-05-10,Udupi,Carrot,19,30
+2025-05-10,Udupi,Cabbage,13,19
+2025-05-10,Udupi,Cauliflower,21,35
+2025-05-10,Udupi,Beans,28,43
+2025-05-10,Udupi,Brinjal,19,37
+2025-05-10,Udupi,Lady Finger,24,44
+2025-05-10,Udupi,Spinach,21,37
+2025-05-10,Udupi,Coriander,18,28
+2025-05-10,Udupi,Capsicum,21,27
+2025-05-10,Udupi,Green Chili,14,30
+2025-05-10,Udupi,Pumpkin,29,34
+2025-05-10,Udupi,Radish,24,36
+2025-05-10,Udupi,Bitter Gourd,18,37
+2025-05-10,Udupi,Bottle Gourd,19,26
+2025-05-10,Udupi,Cucumber,18,25
+2025-05-10,Udupi,Drumstick,25,43
+2025-05-10,Udupi,Garlic,14,29
+2025-05-10,Dharwad,Tomato,15,24
+2025-05-10,Dharwad,Potato,24,43
+2025-05-10,Dharwad,Onion,23,34
+2025-05-10,Dharwad,Carrot,11,17
+2025-05-10,Dharwad,Cabbage,25,37
+2025-05-10,Dharwad,Cauliflower,23,40
+2025-05-10,Dharwad,Beans,23,39
+2025-05-10,Dharwad,Brinjal,19,39
+2025-05-10,Dharwad,Lady Finger,10,25
+2025-05-10,Dharwad,Spinach,15,20
+2025-05-10,Dharwad,Coriander,15,31
+2025-05-10,Dharwad,Capsicum,16,30
+2025-05-10,Dharwad,Green Chili,26,46
+2025-05-10,Dharwad,Pumpkin,29,46
+2025-05-10,Dharwad,Radish,19,29
+2025-05-10,Dharwad,Bitter Gourd,23,38
+2025-05-10,Dharwad,Bottle Gourd,21,29
+2025-05-10,Dharwad,Cucumber,29,41
+2025-05-10,Dharwad,Drumstick,13,24
+2025-05-10,Dharwad,Garlic,21,26
+2025-05-10,Haveri,Tomato,26,34
+2025-05-10,Haveri,Potato,26,43
+2025-05-10,Haveri,Onion,18,23
+2025-05-10,Haveri,Carrot,29,36
+2025-05-10,Haveri,Cabbage,30,38
+2025-05-10,Haveri,Cauliflower,27,32
+2025-05-10,Haveri,Beans,11,23
+2025-05-10,Haveri,Brinjal,26,46
+2025-05-10,Haveri,Lady Finger,26,42
+2025-05-10,Haveri,Spinach,16,24
+2025-05-10,Haveri,Coriander,13,24
+2025-05-10,Haveri,Capsicum,25,32
+2025-05-10,Haveri,Green Chili,19,31
+2025-05-10,Haveri,Pumpkin,29,34
+2025-05-10,Haveri,Radish,23,38
+2025-05-10,Haveri,Bitter Gourd,10,23
+2025-05-10,Haveri,Bottle Gourd,25,32
+2025-05-10,Haveri,Cucumber,15,29
+2025-05-10,Haveri,Drumstick,13,29
+2025-05-10,Haveri,Garlic,29,40
+2025-05-10,Bagalkot,Tomato,20,34
+2025-05-10,Bagalkot,Potato,10,22
+2025-05-10,Bagalkot,Onion,14,31
+2025-05-10,Bagalkot,Carrot,30,42
+2025-05-10,Bagalkot,Cabbage,19,38
+2025-05-10,Bagalkot,Cauliflower,16,22
+2025-05-10,Bagalkot,Beans,23,37
+2025-05-10,Bagalkot,Brinjal,15,20
+2025-05-10,Bagalkot,Lady Finger,13,24
+2025-05-10,Bagalkot,Spinach,24,44
+2025-05-10,Bagalkot,Coriander,16,24
+2025-05-10,Bagalkot,Capsicum,19,38
+2025-05-10,Bagalkot,Green Chili,27,37
+2025-05-10,Bagalkot,Pumpkin,11,19
+2025-05-10,Bagalkot,Radish,16,25
+2025-05-10,Bagalkot,Bitter Gourd,20,35
+2025-05-10,Bagalkot,Bottle Gourd,16,32
+2025-05-10,Bagalkot,Cucumber,15,33
+2025-05-10,Bagalkot,Drumstick,12,26
+2025-05-10,Bagalkot,Garlic,10,27
+2025-05-10,Ramanagara,Tomato,28,45
+2025-05-10,Ramanagara,Potato,15,33
+2025-05-10,Ramanagara,Onion,22,38
+2025-05-10,Ramanagara,Carrot,19,32
+2025-05-10,Ramanagara,Cabbage,15,22
+2025-05-10,Ramanagara,Cauliflower,21,33
+2025-05-10,Ramanagara,Beans,18,36
+2025-05-10,Ramanagara,Brinjal,21,32
+2025-05-10,Ramanagara,Lady Finger,24,38
+2025-05-10,Ramanagara,Spinach,19,37
+2025-05-10,Ramanagara,Coriander,15,26
+2025-05-10,Ramanagara,Capsicum,18,32
+2025-05-10,Ramanagara,Green Chili,18,26
+2025-05-10,Ramanagara,Pumpkin,12,27
+2025-05-10,Ramanagara,Radish,26,42
+2025-05-10,Ramanagara,Bitter Gourd,18,36
+2025-05-10,Ramanagara,Bottle Gourd,25,32
+2025-05-10,Ramanagara,Cucumber,27,46
+2025-05-10,Ramanagara,Drumstick,14,34
+2025-05-10,Ramanagara,Garlic,16,36
+2025-05-10,Yadgir,Tomato,25,30
+2025-05-10,Yadgir,Potato,11,31
+2025-05-10,Yadgir,Onion,29,44
+2025-05-10,Yadgir,Carrot,10,30
+2025-05-10,Yadgir,Cabbage,28,34
+2025-05-10,Yadgir,Cauliflower,20,27
+2025-05-10,Yadgir,Beans,17,27
+2025-05-10,Yadgir,Brinjal,15,20
+2025-05-10,Yadgir,Lady Finger,24,41
+2025-05-10,Yadgir,Spinach,22,32
+2025-05-10,Yadgir,Coriander,18,25
+2025-05-10,Yadgir,Capsicum,24,44
+2025-05-10,Yadgir,Green Chili,23,40
+2025-05-10,Yadgir,Pumpkin,22,35
+2025-05-10,Yadgir,Radish,20,28
+2025-05-10,Yadgir,Bitter Gourd,28,43
+2025-05-10,Yadgir,Bottle Gourd,30,40
+2025-05-10,Yadgir,Cucumber,28,45
+2025-05-10,Yadgir,Drumstick,15,28
+2025-05-10,Yadgir,Garlic,12,27
+2025-05-10,Chikkaballapur,Tomato,27,37
+2025-05-10,Chikkaballapur,Potato,29,42
+2025-05-10,Chikkaballapur,Onion,27,33
+2025-05-10,Chikkaballapur,Carrot,16,21
+2025-05-10,Chikkaballapur,Cabbage,12,29
+2025-05-10,Chikkaballapur,Cauliflower,30,48
+2025-05-10,Chikkaballapur,Beans,26,31
+2025-05-10,Chikkaballapur,Brinjal,26,36
+2025-05-10,Chikkaballapur,Lady Finger,19,33
+2025-05-10,Chikkaballapur,Spinach,28,40
+2025-05-10,Chikkaballapur,Coriander,10,21
+2025-05-10,Chikkaballapur,Capsicum,26,31
+2025-05-10,Chikkaballapur,Green Chili,16,35
+2025-05-10,Chikkaballapur,Pumpkin,11,20
+2025-05-10,Chikkaballapur,Radish,15,26
+2025-05-10,Chikkaballapur,Bitter Gourd,20,27
+2025-05-10,Chikkaballapur,Bottle Gourd,25,42
+2025-05-10,Chikkaballapur,Cucumber,22,35
+2025-05-10,Chikkaballapur,Drumstick,19,28
+2025-05-10,Chikkaballapur,Garlic,19,37
+2025-05-10,Kodagu,Tomato,25,42
+2025-05-10,Kodagu,Potato,25,40
+2025-05-10,Kodagu,Onion,15,24
+2025-05-10,Kodagu,Carrot,13,21
+2025-05-10,Kodagu,Cabbage,22,35
+2025-05-10,Kodagu,Cauliflower,13,31
+2025-05-10,Kodagu,Beans,25,40
+2025-05-10,Kodagu,Brinjal,20,29
+2025-05-10,Kodagu,Lady Finger,10,18
+2025-05-10,Kodagu,Spinach,23,41
+2025-05-10,Kodagu,Coriander,23,37
+2025-05-10,Kodagu,Capsicum,24,36
+2025-05-10,Kodagu,Green Chili,21,30
+2025-05-10,Kodagu,Pumpkin,18,38
+2025-05-10,Kodagu,Radish,27,44
+2025-05-10,Kodagu,Bitter Gourd,12,21
+2025-05-10,Kodagu,Bottle Gourd,17,37
+2025-05-10,Kodagu,Cucumber,30,37
+2025-05-10,Kodagu,Drumstick,29,41
+2025-05-10,Kodagu,Garlic,23,38
+2025-05-10,Vijayapura,Tomato,12,30
+2025-05-10,Vijayapura,Potato,20,25
+2025-05-10,Vijayapura,Onion,27,32
+2025-05-10,Vijayapura,Carrot,25,38
+2025-05-10,Vijayapura,Cabbage,27,35
+2025-05-10,Vijayapura,Cauliflower,12,23
+2025-05-10,Vijayapura,Beans,18,36
+2025-05-10,Vijayapura,Brinjal,11,25
+2025-05-10,Vijayapura,Lady Finger,15,27
+2025-05-10,Vijayapura,Spinach,28,40
+2025-05-10,Vijayapura,Coriander,25,42
+2025-05-10,Vijayapura,Capsicum,16,27
+2025-05-10,Vijayapura,Green Chili,30,50
+2025-05-10,Vijayapura,Pumpkin,18,33
+2025-05-10,Vijayapura,Radish,24,33
+2025-05-10,Vijayapura,Bitter Gourd,24,42
+2025-05-10,Vijayapura,Bottle Gourd,27,40
+2025-05-10,Vijayapura,Cucumber,23,33
+2025-05-10,Vijayapura,Drumstick,13,20
+2025-05-10,Vijayapura,Garlic,18,35
+2025-05-10,Gadag,Tomato,19,30
+2025-05-10,Gadag,Potato,10,15
+2025-05-10,Gadag,Onion,18,38
+2025-05-10,Gadag,Carrot,11,30
+2025-05-10,Gadag,Cabbage,13,25
+2025-05-10,Gadag,Cauliflower,20,25
+2025-05-10,Gadag,Beans,10,17
+2025-05-10,Gadag,Brinjal,20,26
+2025-05-10,Gadag,Lady Finger,13,25
+2025-05-10,Gadag,Spinach,15,35
+2025-05-10,Gadag,Coriander,20,31
+2025-05-10,Gadag,Capsicum,20,32
+2025-05-10,Gadag,Green Chili,23,39
+2025-05-10,Gadag,Pumpkin,25,43
+2025-05-10,Gadag,Radish,22,41
+2025-05-10,Gadag,Bitter Gourd,13,26
+2025-05-10,Gadag,Bottle Gourd,30,44
+2025-05-10,Gadag,Cucumber,19,31
+2025-05-10,Gadag,Drumstick,18,24
+2025-05-10,Gadag,Garlic,22,33
+2025-05-10,Karwar,Tomato,21,34
+2025-05-10,Karwar,Potato,21,34
+2025-05-10,Karwar,Onion,19,34
+2025-05-10,Karwar,Carrot,26,31
+2025-05-10,Karwar,Cabbage,22,29
+2025-05-10,Karwar,Cauliflower,23,31
+2025-05-10,Karwar,Beans,19,38
+2025-05-10,Karwar,Brinjal,24,35
+2025-05-10,Karwar,Lady Finger,22,34
+2025-05-10,Karwar,Spinach,15,34
+2025-05-10,Karwar,Coriander,12,17
+2025-05-10,Karwar,Capsicum,25,34
+2025-05-10,Karwar,Green Chili,21,37
+2025-05-10,Karwar,Pumpkin,11,31
+2025-05-10,Karwar,Radish,10,26
+2025-05-10,Karwar,Bitter Gourd,22,42
+2025-05-10,Karwar,Bottle Gourd,24,36
+2025-05-10,Karwar,Cucumber,19,35
+2025-05-10,Karwar,Drumstick,30,39
+2025-05-10,Karwar,Garlic,10,22
+2025-05-10,Chamarajanagar,Tomato,11,28
+2025-05-10,Chamarajanagar,Potato,25,42
+2025-05-10,Chamarajanagar,Onion,10,18
+2025-05-10,Chamarajanagar,Carrot,19,32
+2025-05-10,Chamarajanagar,Cabbage,29,47
+2025-05-10,Chamarajanagar,Cauliflower,10,29
+2025-05-10,Chamarajanagar,Beans,14,19
+2025-05-10,Chamarajanagar,Brinjal,30,38
+2025-05-10,Chamarajanagar,Lady Finger,14,32
+2025-05-10,Chamarajanagar,Spinach,27,47
+2025-05-10,Chamarajanagar,Coriander,21,39
+2025-05-10,Chamarajanagar,Capsicum,19,30
+2025-05-10,Chamarajanagar,Green Chili,14,33
+2025-05-10,Chamarajanagar,Pumpkin,15,27
+2025-05-10,Chamarajanagar,Radish,23,43
+2025-05-10,Chamarajanagar,Bitter Gourd,16,31
+2025-05-10,Chamarajanagar,Bottle Gourd,23,35
+2025-05-10,Chamarajanagar,Cucumber,27,44
+2025-05-10,Chamarajanagar,Drumstick,14,22
+2025-05-10,Chamarajanagar,Garlic,24,33
+2025-05-09,Bangalore,Tomato,24,35
+2025-05-09,Bangalore,Potato,28,39
+2025-05-09,Bangalore,Onion,29,41
+2025-05-09,Bangalore,Carrot,20,38
+2025-05-09,Bangalore,Cabbage,15,34
+2025-05-09,Bangalore,Cauliflower,21,31
+2025-05-09,Bangalore,Beans,18,31
+2025-05-09,Bangalore,Brinjal,27,33
+2025-05-09,Bangalore,Lady Finger,14,27
+2025-05-09,Bangalore,Spinach,19,38
+2025-05-09,Bangalore,Coriander,30,39
+2025-05-09,Bangalore,Capsicum,12,22
+2025-05-09,Bangalore,Green Chili,24,42
+2025-05-09,Bangalore,Pumpkin,22,28
+2025-05-09,Bangalore,Radish,16,28
+2025-05-09,Bangalore,Bitter Gourd,14,22
+2025-05-09,Bangalore,Bottle Gourd,28,34
+2025-05-09,Bangalore,Cucumber,29,34
+2025-05-09,Bangalore,Drumstick,20,37
+2025-05-09,Bangalore,Garlic,17,37
+2025-05-09,Mysore,Tomato,17,37
+2025-05-09,Mysore,Potato,11,25
+2025-05-09,Mysore,Onion,24,34
+2025-05-09,Mysore,Carrot,14,22
+2025-05-09,Mysore,Cabbage,24,29
+2025-05-09,Mysore,Cauliflower,21,33
+2025-05-09,Mysore,Beans,13,27
+2025-05-09,Mysore,Brinjal,23,38
+2025-05-09,Mysore,Lady Finger,10,22
+2025-05-09,Mysore,Spinach,15,35
+2025-05-09,Mysore,Coriander,22,32
+2025-05-09,Mysore,Capsicum,28,36
+2025-05-09,Mysore,Green Chili,30,41
+2025-05-09,Mysore,Pumpkin,13,29
+2025-05-09,Mysore,Radish,25,39
+2025-05-09,Mysore,Bitter Gourd,24,38
+2025-05-09,Mysore,Bottle Gourd,15,25
+2025-05-09,Mysore,Cucumber,12,31
+2025-05-09,Mysore,Drumstick,24,35
+2025-05-09,Mysore,Garlic,22,30
+2025-05-09,Mangalore,Tomato,22,40
+2025-05-09,Mangalore,Potato,20,31
+2025-05-09,Mangalore,Onion,21,29
+2025-05-09,Mangalore,Carrot,23,43
+2025-05-09,Mangalore,Cabbage,23,36
+2025-05-09,Mangalore,Cauliflower,26,36
+2025-05-09,Mangalore,Beans,14,22
+2025-05-09,Mangalore,Brinjal,13,29
+2025-05-09,Mangalore,Lady Finger,28,36
+2025-05-09,Mangalore,Spinach,26,43
+2025-05-09,Mangalore,Coriander,24,42
+2025-05-09,Mangalore,Capsicum,12,22
+2025-05-09,Mangalore,Green Chili,17,37
+2025-05-09,Mangalore,Pumpkin,17,36
+2025-05-09,Mangalore,Radish,21,27
+2025-05-09,Mangalore,Bitter Gourd,26,38
+2025-05-09,Mangalore,Bottle Gourd,19,28
+2025-05-09,Mangalore,Cucumber,25,34
+2025-05-09,Mangalore,Drumstick,12,32
+2025-05-09,Mangalore,Garlic,26,38
+2025-05-09,Hubli,Tomato,17,24
+2025-05-09,Hubli,Potato,13,22
+2025-05-09,Hubli,Onion,29,38
+2025-05-09,Hubli,Carrot,17,36
+2025-05-09,Hubli,Cabbage,28,33
+2025-05-09,Hubli,Cauliflower,29,41
+2025-05-09,Hubli,Beans,30,44
+2025-05-09,Hubli,Brinjal,13,22
+2025-05-09,Hubli,Lady Finger,24,42
+2025-05-09,Hubli,Spinach,17,22
+2025-05-09,Hubli,Coriander,30,45
+2025-05-09,Hubli,Capsicum,25,42
+2025-05-09,Hubli,Green Chili,22,36
+2025-05-09,Hubli,Pumpkin,10,30
+2025-05-09,Hubli,Radish,16,26
+2025-05-09,Hubli,Bitter Gourd,27,34
+2025-05-09,Hubli,Bottle Gourd,17,26
+2025-05-09,Hubli,Cucumber,25,42
+2025-05-09,Hubli,Drumstick,16,22
+2025-05-09,Hubli,Garlic,26,39
+2025-05-09,Belgaum,Tomato,16,30
+2025-05-09,Belgaum,Potato,22,30
+2025-05-09,Belgaum,Onion,25,35
+2025-05-09,Belgaum,Carrot,29,43
+2025-05-09,Belgaum,Cabbage,26,44
+2025-05-09,Belgaum,Cauliflower,26,34
+2025-05-09,Belgaum,Beans,30,41
+2025-05-09,Belgaum,Brinjal,14,24
+2025-05-09,Belgaum,Lady Finger,19,29
+2025-05-09,Belgaum,Spinach,11,29
+2025-05-09,Belgaum,Coriander,14,34
+2025-05-09,Belgaum,Capsicum,22,41
+2025-05-09,Belgaum,Green Chili,11,30
+2025-05-09,Belgaum,Pumpkin,24,29
+2025-05-09,Belgaum,Radish,17,35
+2025-05-09,Belgaum,Bitter Gourd,11,30
+2025-05-09,Belgaum,Bottle Gourd,11,18
+2025-05-09,Belgaum,Cucumber,11,19
+2025-05-09,Belgaum,Drumstick,17,26
+2025-05-09,Belgaum,Garlic,19,29
+2025-05-09,Davanagere,Tomato,29,42
+2025-05-09,Davanagere,Potato,29,34
+2025-05-09,Davanagere,Onion,13,32
+2025-05-09,Davanagere,Carrot,12,25
+2025-05-09,Davanagere,Cabbage,25,43
+2025-05-09,Davanagere,Cauliflower,26,41
+2025-05-09,Davanagere,Beans,20,40
+2025-05-09,Davanagere,Brinjal,23,28
+2025-05-09,Davanagere,Lady Finger,23,29
+2025-05-09,Davanagere,Spinach,30,43
+2025-05-09,Davanagere,Coriander,14,26
+2025-05-09,Davanagere,Capsicum,30,50
+2025-05-09,Davanagere,Green Chili,19,39
+2025-05-09,Davanagere,Pumpkin,18,34
+2025-05-09,Davanagere,Radish,23,28
+2025-05-09,Davanagere,Bitter Gourd,29,43
+2025-05-09,Davanagere,Bottle Gourd,19,37
+2025-05-09,Davanagere,Cucumber,26,34
+2025-05-09,Davanagere,Drumstick,30,50
+2025-05-09,Davanagere,Garlic,21,37
+2025-05-09,Bellary,Tomato,13,18
+2025-05-09,Bellary,Potato,27,38
+2025-05-09,Bellary,Onion,22,36
+2025-05-09,Bellary,Carrot,20,32
+2025-05-09,Bellary,Cabbage,18,25
+2025-05-09,Bellary,Cauliflower,13,32
+2025-05-09,Bellary,Beans,18,25
+2025-05-09,Bellary,Brinjal,30,46
+2025-05-09,Bellary,Lady Finger,17,36
+2025-05-09,Bellary,Spinach,11,31
+2025-05-09,Bellary,Coriander,15,29
+2025-05-09,Bellary,Capsicum,20,34
+2025-05-09,Bellary,Green Chili,11,17
+2025-05-09,Bellary,Pumpkin,11,30
+2025-05-09,Bellary,Radish,18,29
+2025-05-09,Bellary,Bitter Gourd,25,41
+2025-05-09,Bellary,Bottle Gourd,26,31
+2025-05-09,Bellary,Cucumber,23,29
+2025-05-09,Bellary,Drumstick,26,39
+2025-05-09,Bellary,Garlic,29,44
+2025-05-09,Tumkur,Tomato,30,49
+2025-05-09,Tumkur,Potato,21,37
+2025-05-09,Tumkur,Onion,29,42
+2025-05-09,Tumkur,Carrot,18,24
+2025-05-09,Tumkur,Cabbage,30,39
+2025-05-09,Tumkur,Cauliflower,22,37
+2025-05-09,Tumkur,Beans,30,49
+2025-05-09,Tumkur,Brinjal,29,37
+2025-05-09,Tumkur,Lady Finger,15,23
+2025-05-09,Tumkur,Spinach,28,47
+2025-05-09,Tumkur,Coriander,10,28
+2025-05-09,Tumkur,Capsicum,14,29
+2025-05-09,Tumkur,Green Chili,21,31
+2025-05-09,Tumkur,Pumpkin,30,46
+2025-05-09,Tumkur,Radish,27,46
+2025-05-09,Tumkur,Bitter Gourd,30,45
+2025-05-09,Tumkur,Bottle Gourd,23,39
+2025-05-09,Tumkur,Cucumber,21,33
+2025-05-09,Tumkur,Drumstick,16,30
+2025-05-09,Tumkur,Garlic,30,46
+2025-05-09,Shimoga,Tomato,12,18
+2025-05-09,Shimoga,Potato,10,24
+2025-05-09,Shimoga,Onion,17,34
+2025-05-09,Shimoga,Carrot,10,25
+2025-05-09,Shimoga,Cabbage,27,36
+2025-05-09,Shimoga,Cauliflower,23,37
+2025-05-09,Shimoga,Beans,30,37
+2025-05-09,Shimoga,Brinjal,12,18
+2025-05-09,Shimoga,Lady Finger,10,15
+2025-05-09,Shimoga,Spinach,16,27
+2025-05-09,Shimoga,Coriander,25,38
+2025-05-09,Shimoga,Capsicum,17,25
+2025-05-09,Shimoga,Green Chili,10,20
+2025-05-09,Shimoga,Pumpkin,30,46
+2025-05-09,Shimoga,Radish,20,28
+2025-05-09,Shimoga,Bitter Gourd,24,38
+2025-05-09,Shimoga,Bottle Gourd,29,48
+2025-05-09,Shimoga,Cucumber,18,38
+2025-05-09,Shimoga,Drumstick,16,28
+2025-05-09,Shimoga,Garlic,25,34
+2025-05-09,Raichur,Tomato,13,22
+2025-05-09,Raichur,Potato,24,39
+2025-05-09,Raichur,Onion,20,34
+2025-05-09,Raichur,Carrot,15,33
+2025-05-09,Raichur,Cabbage,30,38
+2025-05-09,Raichur,Cauliflower,27,47
+2025-05-09,Raichur,Beans,19,28
+2025-05-09,Raichur,Brinjal,22,32
+2025-05-09,Raichur,Lady Finger,29,49
+2025-05-09,Raichur,Spinach,12,32
+2025-05-09,Raichur,Coriander,16,32
+2025-05-09,Raichur,Capsicum,26,44
+2025-05-09,Raichur,Green Chili,29,36
+2025-05-09,Raichur,Pumpkin,22,40
+2025-05-09,Raichur,Radish,28,33
+2025-05-09,Raichur,Bitter Gourd,30,46
+2025-05-09,Raichur,Bottle Gourd,24,36
+2025-05-09,Raichur,Cucumber,12,23
+2025-05-09,Raichur,Drumstick,15,25
+2025-05-09,Raichur,Garlic,17,36
+2025-05-09,Bidar,Tomato,20,34
+2025-05-09,Bidar,Potato,13,26
+2025-05-09,Bidar,Onion,27,34
+2025-05-09,Bidar,Carrot,25,41
+2025-05-09,Bidar,Cabbage,26,40
+2025-05-09,Bidar,Cauliflower,16,34
+2025-05-09,Bidar,Beans,12,21
+2025-05-09,Bidar,Brinjal,21,36
+2025-05-09,Bidar,Lady Finger,23,31
+2025-05-09,Bidar,Spinach,14,22
+2025-05-09,Bidar,Coriander,19,38
+2025-05-09,Bidar,Capsicum,25,43
+2025-05-09,Bidar,Green Chili,19,28
+2025-05-09,Bidar,Pumpkin,18,31
+2025-05-09,Bidar,Radish,24,34
+2025-05-09,Bidar,Bitter Gourd,20,32
+2025-05-09,Bidar,Bottle Gourd,28,44
+2025-05-09,Bidar,Cucumber,14,33
+2025-05-09,Bidar,Drumstick,22,41
+2025-05-09,Bidar,Garlic,20,26
+2025-05-09,Bijapur,Tomato,16,33
+2025-05-09,Bijapur,Potato,21,37
+2025-05-09,Bijapur,Onion,30,44
+2025-05-09,Bijapur,Carrot,24,38
+2025-05-09,Bijapur,Cabbage,17,29
+2025-05-09,Bijapur,Cauliflower,13,19
+2025-05-09,Bijapur,Beans,13,27
+2025-05-09,Bijapur,Brinjal,14,30
+2025-05-09,Bijapur,Lady Finger,17,31
+2025-05-09,Bijapur,Spinach,30,37
+2025-05-09,Bijapur,Coriander,18,34
+2025-05-09,Bijapur,Capsicum,26,42
+2025-05-09,Bijapur,Green Chili,16,23
+2025-05-09,Bijapur,Pumpkin,20,25
+2025-05-09,Bijapur,Radish,23,29
+2025-05-09,Bijapur,Bitter Gourd,15,33
+2025-05-09,Bijapur,Bottle Gourd,29,47
+2025-05-09,Bijapur,Cucumber,16,28
+2025-05-09,Bijapur,Drumstick,22,32
+2025-05-09,Bijapur,Garlic,23,30
+2025-05-09,Chikmagalur,Tomato,26,40
+2025-05-09,Chikmagalur,Potato,17,32
+2025-05-09,Chikmagalur,Onion,16,29
+2025-05-09,Chikmagalur,Carrot,12,18
+2025-05-09,Chikmagalur,Cabbage,19,36
+2025-05-09,Chikmagalur,Cauliflower,11,22
+2025-05-09,Chikmagalur,Beans,13,30
+2025-05-09,Chikmagalur,Brinjal,18,33
+2025-05-09,Chikmagalur,Lady Finger,26,41
+2025-05-09,Chikmagalur,Spinach,17,29
+2025-05-09,Chikmagalur,Coriander,11,16
+2025-05-09,Chikmagalur,Capsicum,28,35
+2025-05-09,Chikmagalur,Green Chili,13,26
+2025-05-09,Chikmagalur,Pumpkin,27,43
+2025-05-09,Chikmagalur,Radish,21,29
+2025-05-09,Chikmagalur,Bitter Gourd,18,37
+2025-05-09,Chikmagalur,Bottle Gourd,18,26
+2025-05-09,Chikmagalur,Cucumber,15,30
+2025-05-09,Chikmagalur,Drumstick,21,27
+2025-05-09,Chikmagalur,Garlic,18,29
+2025-05-09,Hassan,Tomato,26,40
+2025-05-09,Hassan,Potato,30,40
+2025-05-09,Hassan,Onion,15,35
+2025-05-09,Hassan,Carrot,23,35
+2025-05-09,Hassan,Cabbage,19,25
+2025-05-09,Hassan,Cauliflower,12,28
+2025-05-09,Hassan,Beans,22,42
+2025-05-09,Hassan,Brinjal,26,34
+2025-05-09,Hassan,Lady Finger,29,36
+2025-05-09,Hassan,Spinach,19,27
+2025-05-09,Hassan,Coriander,22,42
+2025-05-09,Hassan,Capsicum,11,23
+2025-05-09,Hassan,Green Chili,10,26
+2025-05-09,Hassan,Pumpkin,28,43
+2025-05-09,Hassan,Radish,24,38
+2025-05-09,Hassan,Bitter Gourd,10,22
+2025-05-09,Hassan,Bottle Gourd,10,30
+2025-05-09,Hassan,Cucumber,18,30
+2025-05-09,Hassan,Drumstick,25,39
+2025-05-09,Hassan,Garlic,18,33
+2025-05-09,Mandya,Tomato,11,29
+2025-05-09,Mandya,Potato,16,27
+2025-05-09,Mandya,Onion,20,25
+2025-05-09,Mandya,Carrot,29,38
+2025-05-09,Mandya,Cabbage,18,38
+2025-05-09,Mandya,Cauliflower,19,28
+2025-05-09,Mandya,Beans,10,29
+2025-05-09,Mandya,Brinjal,25,36
+2025-05-09,Mandya,Lady Finger,29,43
+2025-05-09,Mandya,Spinach,12,29
+2025-05-09,Mandya,Coriander,22,34
+2025-05-09,Mandya,Capsicum,26,39
+2025-05-09,Mandya,Green Chili,21,37
+2025-05-09,Mandya,Pumpkin,10,30
+2025-05-09,Mandya,Radish,29,38
+2025-05-09,Mandya,Bitter Gourd,30,44
+2025-05-09,Mandya,Bottle Gourd,15,24
+2025-05-09,Mandya,Cucumber,28,38
+2025-05-09,Mandya,Drumstick,24,38
+2025-05-09,Mandya,Garlic,18,33
+2025-05-09,Gulbarga,Tomato,26,32
+2025-05-09,Gulbarga,Potato,29,38
+2025-05-09,Gulbarga,Onion,23,42
+2025-05-09,Gulbarga,Carrot,24,35
+2025-05-09,Gulbarga,Cabbage,25,41
+2025-05-09,Gulbarga,Cauliflower,23,32
+2025-05-09,Gulbarga,Beans,13,29
+2025-05-09,Gulbarga,Brinjal,21,38
+2025-05-09,Gulbarga,Lady Finger,22,32
+2025-05-09,Gulbarga,Spinach,19,29
+2025-05-09,Gulbarga,Coriander,22,30
+2025-05-09,Gulbarga,Capsicum,26,34
+2025-05-09,Gulbarga,Green Chili,12,20
+2025-05-09,Gulbarga,Pumpkin,30,42
+2025-05-09,Gulbarga,Radish,14,22
+2025-05-09,Gulbarga,Bitter Gourd,13,27
+2025-05-09,Gulbarga,Bottle Gourd,21,28
+2025-05-09,Gulbarga,Cucumber,29,43
+2025-05-09,Gulbarga,Drumstick,13,26
+2025-05-09,Gulbarga,Garlic,27,43
+2025-05-09,Kolar,Tomato,18,32
+2025-05-09,Kolar,Potato,22,29
+2025-05-09,Kolar,Onion,10,30
+2025-05-09,Kolar,Carrot,21,32
+2025-05-09,Kolar,Cabbage,30,47
+2025-05-09,Kolar,Cauliflower,15,23
+2025-05-09,Kolar,Beans,15,35
+2025-05-09,Kolar,Brinjal,17,25
+2025-05-09,Kolar,Lady Finger,27,38
+2025-05-09,Kolar,Spinach,23,33
+2025-05-09,Kolar,Coriander,26,35
+2025-05-09,Kolar,Capsicum,18,34
+2025-05-09,Kolar,Green Chili,17,32
+2025-05-09,Kolar,Pumpkin,17,27
+2025-05-09,Kolar,Radish,22,39
+2025-05-09,Kolar,Bitter Gourd,23,42
+2025-05-09,Kolar,Bottle Gourd,25,38
+2025-05-09,Kolar,Cucumber,14,34
+2025-05-09,Kolar,Drumstick,11,17
+2025-05-09,Kolar,Garlic,14,34
+2025-05-09,Chitradurga,Tomato,14,28
+2025-05-09,Chitradurga,Potato,18,29
+2025-05-09,Chitradurga,Onion,15,30
+2025-05-09,Chitradurga,Carrot,12,31
+2025-05-09,Chitradurga,Cabbage,25,45
+2025-05-09,Chitradurga,Cauliflower,16,23
+2025-05-09,Chitradurga,Beans,14,26
+2025-05-09,Chitradurga,Brinjal,26,42
+2025-05-09,Chitradurga,Lady Finger,27,43
+2025-05-09,Chitradurga,Spinach,15,27
+2025-05-09,Chitradurga,Coriander,10,15
+2025-05-09,Chitradurga,Capsicum,13,27
+2025-05-09,Chitradurga,Green Chili,30,49
+2025-05-09,Chitradurga,Pumpkin,19,36
+2025-05-09,Chitradurga,Radish,29,45
+2025-05-09,Chitradurga,Bitter Gourd,14,20
+2025-05-09,Chitradurga,Bottle Gourd,14,33
+2025-05-09,Chitradurga,Cucumber,27,40
+2025-05-09,Chitradurga,Drumstick,11,25
+2025-05-09,Chitradurga,Garlic,21,36
+2025-05-09,Udupi,Tomato,24,34
+2025-05-09,Udupi,Potato,24,31
+2025-05-09,Udupi,Onion,14,19
+2025-05-09,Udupi,Carrot,19,38
+2025-05-09,Udupi,Cabbage,19,26
+2025-05-09,Udupi,Cauliflower,23,36
+2025-05-09,Udupi,Beans,17,25
+2025-05-09,Udupi,Brinjal,13,33
+2025-05-09,Udupi,Lady Finger,29,48
+2025-05-09,Udupi,Spinach,29,38
+2025-05-09,Udupi,Coriander,30,36
+2025-05-09,Udupi,Capsicum,30,48
+2025-05-09,Udupi,Green Chili,28,39
+2025-05-09,Udupi,Pumpkin,24,38
+2025-05-09,Udupi,Radish,24,30
+2025-05-09,Udupi,Bitter Gourd,15,23
+2025-05-09,Udupi,Bottle Gourd,26,33
+2025-05-09,Udupi,Cucumber,11,28
+2025-05-09,Udupi,Drumstick,24,38
+2025-05-09,Udupi,Garlic,21,26
+2025-05-09,Dharwad,Tomato,18,24
+2025-05-09,Dharwad,Potato,18,25
+2025-05-09,Dharwad,Onion,21,35
+2025-05-09,Dharwad,Carrot,24,38
+2025-05-09,Dharwad,Cabbage,26,45
+2025-05-09,Dharwad,Cauliflower,10,19
+2025-05-09,Dharwad,Beans,28,43
+2025-05-09,Dharwad,Brinjal,10,16
+2025-05-09,Dharwad,Lady Finger,30,46
+2025-05-09,Dharwad,Spinach,23,37
+2025-05-09,Dharwad,Coriander,21,31
+2025-05-09,Dharwad,Capsicum,28,48
+2025-05-09,Dharwad,Green Chili,15,23
+2025-05-09,Dharwad,Pumpkin,12,30
+2025-05-09,Dharwad,Radish,12,27
+2025-05-09,Dharwad,Bitter Gourd,23,39
+2025-05-09,Dharwad,Bottle Gourd,30,40
+2025-05-09,Dharwad,Cucumber,23,31
+2025-05-09,Dharwad,Drumstick,12,18
+2025-05-09,Dharwad,Garlic,30,39
+2025-05-09,Haveri,Tomato,29,37
+2025-05-09,Haveri,Potato,14,26
+2025-05-09,Haveri,Onion,26,35
+2025-05-09,Haveri,Carrot,10,16
+2025-05-09,Haveri,Cabbage,29,40
+2025-05-09,Haveri,Cauliflower,23,32
+2025-05-09,Haveri,Beans,27,38
+2025-05-09,Haveri,Brinjal,19,25
+2025-05-09,Haveri,Lady Finger,28,41
+2025-05-09,Haveri,Spinach,20,38
+2025-05-09,Haveri,Coriander,16,23
+2025-05-09,Haveri,Capsicum,15,23
+2025-05-09,Haveri,Green Chili,21,37
+2025-05-09,Haveri,Pumpkin,20,34
+2025-05-09,Haveri,Radish,10,19
+2025-05-09,Haveri,Bitter Gourd,24,40
+2025-05-09,Haveri,Bottle Gourd,22,35
+2025-05-09,Haveri,Cucumber,11,23
+2025-05-09,Haveri,Drumstick,22,42
+2025-05-09,Haveri,Garlic,23,34
+2025-05-09,Bagalkot,Tomato,13,32
+2025-05-09,Bagalkot,Potato,17,34
+2025-05-09,Bagalkot,Onion,16,36
+2025-05-09,Bagalkot,Carrot,10,16
+2025-05-09,Bagalkot,Cabbage,12,22
+2025-05-09,Bagalkot,Cauliflower,19,38
+2025-05-09,Bagalkot,Beans,11,30
+2025-05-09,Bagalkot,Brinjal,14,30
+2025-05-09,Bagalkot,Lady Finger,16,28
+2025-05-09,Bagalkot,Spinach,30,40
+2025-05-09,Bagalkot,Coriander,23,31
+2025-05-09,Bagalkot,Capsicum,23,31
+2025-05-09,Bagalkot,Green Chili,24,44
+2025-05-09,Bagalkot,Pumpkin,13,28
+2025-05-09,Bagalkot,Radish,11,31
+2025-05-09,Bagalkot,Bitter Gourd,18,23
+2025-05-09,Bagalkot,Bottle Gourd,20,39
+2025-05-09,Bagalkot,Cucumber,15,28
+2025-05-09,Bagalkot,Drumstick,20,26
+2025-05-09,Bagalkot,Garlic,25,33
+2025-05-09,Ramanagara,Tomato,21,26
+2025-05-09,Ramanagara,Potato,19,35
+2025-05-09,Ramanagara,Onion,17,33
+2025-05-09,Ramanagara,Carrot,13,22
+2025-05-09,Ramanagara,Cabbage,16,31
+2025-05-09,Ramanagara,Cauliflower,12,18
+2025-05-09,Ramanagara,Beans,18,32
+2025-05-09,Ramanagara,Brinjal,14,29
+2025-05-09,Ramanagara,Lady Finger,28,46
+2025-05-09,Ramanagara,Spinach,11,25
+2025-05-09,Ramanagara,Coriander,12,30
+2025-05-09,Ramanagara,Capsicum,12,31
+2025-05-09,Ramanagara,Green Chili,21,33
+2025-05-09,Ramanagara,Pumpkin,27,44
+2025-05-09,Ramanagara,Radish,13,32
+2025-05-09,Ramanagara,Bitter Gourd,10,26
+2025-05-09,Ramanagara,Bottle Gourd,16,36
+2025-05-09,Ramanagara,Cucumber,27,35
+2025-05-09,Ramanagara,Drumstick,26,31
+2025-05-09,Ramanagara,Garlic,30,45
+2025-05-09,Yadgir,Tomato,18,32
+2025-05-09,Yadgir,Potato,10,23
+2025-05-09,Yadgir,Onion,28,46
+2025-05-09,Yadgir,Carrot,17,34
+2025-05-09,Yadgir,Cabbage,13,31
+2025-05-09,Yadgir,Cauliflower,25,41
+2025-05-09,Yadgir,Beans,11,25
+2025-05-09,Yadgir,Brinjal,23,41
+2025-05-09,Yadgir,Lady Finger,17,33
+2025-05-09,Yadgir,Spinach,28,43
+2025-05-09,Yadgir,Coriander,16,21
+2025-05-09,Yadgir,Capsicum,30,41
+2025-05-09,Yadgir,Green Chili,20,28
+2025-05-09,Yadgir,Pumpkin,16,24
+2025-05-09,Yadgir,Radish,12,30
+2025-05-09,Yadgir,Bitter Gourd,22,37
+2025-05-09,Yadgir,Bottle Gourd,11,31
+2025-05-09,Yadgir,Cucumber,23,38
+2025-05-09,Yadgir,Drumstick,19,27
+2025-05-09,Yadgir,Garlic,10,25
+2025-05-09,Chikkaballapur,Tomato,17,29
+2025-05-09,Chikkaballapur,Potato,11,19
+2025-05-09,Chikkaballapur,Onion,23,32
+2025-05-09,Chikkaballapur,Carrot,27,44
+2025-05-09,Chikkaballapur,Cabbage,20,36
+2025-05-09,Chikkaballapur,Cauliflower,25,37
+2025-05-09,Chikkaballapur,Beans,23,34
+2025-05-09,Chikkaballapur,Brinjal,12,21
+2025-05-09,Chikkaballapur,Lady Finger,25,30
+2025-05-09,Chikkaballapur,Spinach,30,39
+2025-05-09,Chikkaballapur,Coriander,12,29
+2025-05-09,Chikkaballapur,Capsicum,21,40
+2025-05-09,Chikkaballapur,Green Chili,27,43
+2025-05-09,Chikkaballapur,Pumpkin,15,28
+2025-05-09,Chikkaballapur,Radish,13,33
+2025-05-09,Chikkaballapur,Bitter Gourd,27,44
+2025-05-09,Chikkaballapur,Bottle Gourd,21,31
+2025-05-09,Chikkaballapur,Cucumber,18,25
+2025-05-09,Chikkaballapur,Drumstick,19,39
+2025-05-09,Chikkaballapur,Garlic,15,25
+2025-05-09,Kodagu,Tomato,13,22
+2025-05-09,Kodagu,Potato,29,40
+2025-05-09,Kodagu,Onion,11,24
+2025-05-09,Kodagu,Carrot,10,20
+2025-05-09,Kodagu,Cabbage,20,31
+2025-05-09,Kodagu,Cauliflower,17,23
+2025-05-09,Kodagu,Beans,19,30
+2025-05-09,Kodagu,Brinjal,24,32
+2025-05-09,Kodagu,Lady Finger,19,38
+2025-05-09,Kodagu,Spinach,16,34
+2025-05-09,Kodagu,Coriander,13,19
+2025-05-09,Kodagu,Capsicum,28,47
+2025-05-09,Kodagu,Green Chili,15,23
+2025-05-09,Kodagu,Pumpkin,19,35
+2025-05-09,Kodagu,Radish,11,28
+2025-05-09,Kodagu,Bitter Gourd,13,21
+2025-05-09,Kodagu,Bottle Gourd,20,28
+2025-05-09,Kodagu,Cucumber,20,33
+2025-05-09,Kodagu,Drumstick,27,35
+2025-05-09,Kodagu,Garlic,16,26
+2025-05-09,Vijayapura,Tomato,13,28
+2025-05-09,Vijayapura,Potato,14,24
+2025-05-09,Vijayapura,Onion,14,19
+2025-05-09,Vijayapura,Carrot,30,48
+2025-05-09,Vijayapura,Cabbage,18,27
+2025-05-09,Vijayapura,Cauliflower,11,27
+2025-05-09,Vijayapura,Beans,18,35
+2025-05-09,Vijayapura,Brinjal,14,26
+2025-05-09,Vijayapura,Lady Finger,25,44
+2025-05-09,Vijayapura,Spinach,27,42
+2025-05-09,Vijayapura,Coriander,12,30
+2025-05-09,Vijayapura,Capsicum,16,30
+2025-05-09,Vijayapura,Green Chili,13,32
+2025-05-09,Vijayapura,Pumpkin,16,35
+2025-05-09,Vijayapura,Radish,26,33
+2025-05-09,Vijayapura,Bitter Gourd,21,29
+2025-05-09,Vijayapura,Bottle Gourd,19,29
+2025-05-09,Vijayapura,Cucumber,17,31
+2025-05-09,Vijayapura,Drumstick,30,49
+2025-05-09,Vijayapura,Garlic,19,34
+2025-05-09,Gadag,Tomato,11,21
+2025-05-09,Gadag,Potato,12,23
+2025-05-09,Gadag,Onion,26,31
+2025-05-09,Gadag,Carrot,29,43
+2025-05-09,Gadag,Cabbage,11,19
+2025-05-09,Gadag,Cauliflower,30,46
+2025-05-09,Gadag,Beans,29,34
+2025-05-09,Gadag,Brinjal,16,30
+2025-05-09,Gadag,Lady Finger,26,33
+2025-05-09,Gadag,Spinach,14,32
+2025-05-09,Gadag,Coriander,10,22
+2025-05-09,Gadag,Capsicum,25,38
+2025-05-09,Gadag,Green Chili,23,37
+2025-05-09,Gadag,Pumpkin,14,31
+2025-05-09,Gadag,Radish,19,26
+2025-05-09,Gadag,Bitter Gourd,22,34
+2025-05-09,Gadag,Bottle Gourd,27,36
+2025-05-09,Gadag,Cucumber,11,21
+2025-05-09,Gadag,Drumstick,16,24
+2025-05-09,Gadag,Garlic,29,37
+2025-05-09,Karwar,Tomato,25,34
+2025-05-09,Karwar,Potato,22,34
+2025-05-09,Karwar,Onion,18,30
+2025-05-09,Karwar,Carrot,26,39
+2025-05-09,Karwar,Cabbage,13,26
+2025-05-09,Karwar,Cauliflower,13,24
+2025-05-09,Karwar,Beans,26,39
+2025-05-09,Karwar,Brinjal,25,43
+2025-05-09,Karwar,Lady Finger,10,29
+2025-05-09,Karwar,Spinach,13,30
+2025-05-09,Karwar,Coriander,12,17
+2025-05-09,Karwar,Capsicum,20,27
+2025-05-09,Karwar,Green Chili,28,46
+2025-05-09,Karwar,Pumpkin,26,44
+2025-05-09,Karwar,Radish,18,33
+2025-05-09,Karwar,Bitter Gourd,29,43
+2025-05-09,Karwar,Bottle Gourd,15,30
+2025-05-09,Karwar,Cucumber,29,41
+2025-05-09,Karwar,Drumstick,30,42
+2025-05-09,Karwar,Garlic,16,30
+2025-05-09,Chamarajanagar,Tomato,21,36
+2025-05-09,Chamarajanagar,Potato,30,35
+2025-05-09,Chamarajanagar,Onion,14,32
+2025-05-09,Chamarajanagar,Carrot,16,22
+2025-05-09,Chamarajanagar,Cabbage,18,28
+2025-05-09,Chamarajanagar,Cauliflower,27,41
+2025-05-09,Chamarajanagar,Beans,18,23
+2025-05-09,Chamarajanagar,Brinjal,21,30
+2025-05-09,Chamarajanagar,Lady Finger,21,26
+2025-05-09,Chamarajanagar,Spinach,28,39
+2025-05-09,Chamarajanagar,Coriander,30,37
+2025-05-09,Chamarajanagar,Capsicum,29,40
+2025-05-09,Chamarajanagar,Green Chili,30,36
+2025-05-09,Chamarajanagar,Pumpkin,26,34
+2025-05-09,Chamarajanagar,Radish,28,39
+2025-05-09,Chamarajanagar,Bitter Gourd,30,45
+2025-05-09,Chamarajanagar,Bottle Gourd,21,30
+2025-05-09,Chamarajanagar,Cucumber,23,30
+2025-05-09,Chamarajanagar,Drumstick,18,36
+2025-05-09,Chamarajanagar,Garlic,20,31
+2025-05-08,Bangalore,Tomato,29,47
+2025-05-08,Bangalore,Potato,11,24
+2025-05-08,Bangalore,Onion,20,31
+2025-05-08,Bangalore,Carrot,30,48
+2025-05-08,Bangalore,Cabbage,25,32
+2025-05-08,Bangalore,Cauliflower,23,40
+2025-05-08,Bangalore,Beans,13,19
+2025-05-08,Bangalore,Brinjal,14,32
+2025-05-08,Bangalore,Lady Finger,19,32
+2025-05-08,Bangalore,Spinach,30,36
+2025-05-08,Bangalore,Coriander,30,43
+2025-05-08,Bangalore,Capsicum,30,46
+2025-05-08,Bangalore,Green Chili,18,29
+2025-05-08,Bangalore,Pumpkin,24,35
+2025-05-08,Bangalore,Radish,11,28
+2025-05-08,Bangalore,Bitter Gourd,13,21
+2025-05-08,Bangalore,Bottle Gourd,18,34
+2025-05-08,Bangalore,Cucumber,15,23
+2025-05-08,Bangalore,Drumstick,26,31
+2025-05-08,Bangalore,Garlic,17,26
+2025-05-08,Mysore,Tomato,12,19
+2025-05-08,Mysore,Potato,10,21
+2025-05-08,Mysore,Onion,25,43
+2025-05-08,Mysore,Carrot,12,20
+2025-05-08,Mysore,Cabbage,20,32
+2025-05-08,Mysore,Cauliflower,10,29
+2025-05-08,Mysore,Beans,14,33
+2025-05-08,Mysore,Brinjal,19,33
+2025-05-08,Mysore,Lady Finger,29,48
+2025-05-08,Mysore,Spinach,28,36
+2025-05-08,Mysore,Coriander,16,27
+2025-05-08,Mysore,Capsicum,21,34
+2025-05-08,Mysore,Green Chili,28,39
+2025-05-08,Mysore,Pumpkin,16,27
+2025-05-08,Mysore,Radish,30,46
+2025-05-08,Mysore,Bitter Gourd,25,40
+2025-05-08,Mysore,Bottle Gourd,23,32
+2025-05-08,Mysore,Cucumber,14,19
+2025-05-08,Mysore,Drumstick,28,47
+2025-05-08,Mysore,Garlic,28,39
+2025-05-08,Mangalore,Tomato,16,25
+2025-05-08,Mangalore,Potato,25,40
+2025-05-08,Mangalore,Onion,28,39
+2025-05-08,Mangalore,Carrot,25,39
+2025-05-08,Mangalore,Cabbage,28,33
+2025-05-08,Mangalore,Cauliflower,28,44
+2025-05-08,Mangalore,Beans,14,30
+2025-05-08,Mangalore,Brinjal,13,19
+2025-05-08,Mangalore,Lady Finger,17,35
+2025-05-08,Mangalore,Spinach,30,37
+2025-05-08,Mangalore,Coriander,16,34
+2025-05-08,Mangalore,Capsicum,15,27
+2025-05-08,Mangalore,Green Chili,30,43
+2025-05-08,Mangalore,Pumpkin,12,20
+2025-05-08,Mangalore,Radish,28,42
+2025-05-08,Mangalore,Bitter Gourd,10,27
+2025-05-08,Mangalore,Bottle Gourd,25,39
+2025-05-08,Mangalore,Cucumber,27,33
+2025-05-08,Mangalore,Drumstick,30,36
+2025-05-08,Mangalore,Garlic,22,34
+2025-05-08,Hubli,Tomato,11,21
+2025-05-08,Hubli,Potato,17,31
+2025-05-08,Hubli,Onion,19,39
+2025-05-08,Hubli,Carrot,25,32
+2025-05-08,Hubli,Cabbage,22,35
+2025-05-08,Hubli,Cauliflower,30,42
+2025-05-08,Hubli,Beans,13,25
+2025-05-08,Hubli,Brinjal,10,15
+2025-05-08,Hubli,Lady Finger,16,24
+2025-05-08,Hubli,Spinach,23,30
+2025-05-08,Hubli,Coriander,24,41
+2025-05-08,Hubli,Capsicum,20,31
+2025-05-08,Hubli,Green Chili,19,30
+2025-05-08,Hubli,Pumpkin,12,29
+2025-05-08,Hubli,Radish,20,40
+2025-05-08,Hubli,Bitter Gourd,22,33
+2025-05-08,Hubli,Bottle Gourd,10,16
+2025-05-08,Hubli,Cucumber,15,20
+2025-05-08,Hubli,Drumstick,21,28
+2025-05-08,Hubli,Garlic,29,44
+2025-05-08,Belgaum,Tomato,17,28
+2025-05-08,Belgaum,Potato,21,31
+2025-05-08,Belgaum,Onion,15,22
+2025-05-08,Belgaum,Carrot,12,26
+2025-05-08,Belgaum,Cabbage,19,39
+2025-05-08,Belgaum,Cauliflower,13,22
+2025-05-08,Belgaum,Beans,25,41
+2025-05-08,Belgaum,Brinjal,17,32
+2025-05-08,Belgaum,Lady Finger,30,39
+2025-05-08,Belgaum,Spinach,12,28
+2025-05-08,Belgaum,Coriander,12,28
+2025-05-08,Belgaum,Capsicum,29,40
+2025-05-08,Belgaum,Green Chili,27,38
+2025-05-08,Belgaum,Pumpkin,17,33
+2025-05-08,Belgaum,Radish,17,23
+2025-05-08,Belgaum,Bitter Gourd,26,37
+2025-05-08,Belgaum,Bottle Gourd,22,28
+2025-05-08,Belgaum,Cucumber,25,41
+2025-05-08,Belgaum,Drumstick,19,32
+2025-05-08,Belgaum,Garlic,24,37
+2025-05-08,Davanagere,Tomato,25,44
+2025-05-08,Davanagere,Potato,10,24
+2025-05-08,Davanagere,Onion,16,29
+2025-05-08,Davanagere,Carrot,30,48
+2025-05-08,Davanagere,Cabbage,27,36
+2025-05-08,Davanagere,Cauliflower,18,29
+2025-05-08,Davanagere,Beans,11,27
+2025-05-08,Davanagere,Brinjal,11,22
+2025-05-08,Davanagere,Lady Finger,22,37
+2025-05-08,Davanagere,Spinach,20,29
+2025-05-08,Davanagere,Coriander,29,36
+2025-05-08,Davanagere,Capsicum,22,38
+2025-05-08,Davanagere,Green Chili,12,26
+2025-05-08,Davanagere,Pumpkin,12,22
+2025-05-08,Davanagere,Radish,25,37
+2025-05-08,Davanagere,Bitter Gourd,21,36
+2025-05-08,Davanagere,Bottle Gourd,24,34
+2025-05-08,Davanagere,Cucumber,16,31
+2025-05-08,Davanagere,Drumstick,24,33
+2025-05-08,Davanagere,Garlic,29,41
+2025-05-08,Bellary,Tomato,14,20
+2025-05-08,Bellary,Potato,25,36
+2025-05-08,Bellary,Onion,11,19
+2025-05-08,Bellary,Carrot,26,42
+2025-05-08,Bellary,Cabbage,30,47
+2025-05-08,Bellary,Cauliflower,25,45
+2025-05-08,Bellary,Beans,18,32
+2025-05-08,Bellary,Brinjal,26,44
+2025-05-08,Bellary,Lady Finger,10,17
+2025-05-08,Bellary,Spinach,11,31
+2025-05-08,Bellary,Coriander,14,20
+2025-05-08,Bellary,Capsicum,21,32
+2025-05-08,Bellary,Green Chili,11,17
+2025-05-08,Bellary,Pumpkin,13,18
+2025-05-08,Bellary,Radish,14,23
+2025-05-08,Bellary,Bitter Gourd,12,28
+2025-05-08,Bellary,Bottle Gourd,12,20
+2025-05-08,Bellary,Cucumber,19,39
+2025-05-08,Bellary,Drumstick,30,43
+2025-05-08,Bellary,Garlic,10,16
+2025-05-08,Tumkur,Tomato,27,45
+2025-05-08,Tumkur,Potato,25,45
+2025-05-08,Tumkur,Onion,13,28
+2025-05-08,Tumkur,Carrot,10,20
+2025-05-08,Tumkur,Cabbage,22,31
+2025-05-08,Tumkur,Cauliflower,14,29
+2025-05-08,Tumkur,Beans,23,37
+2025-05-08,Tumkur,Brinjal,20,37
+2025-05-08,Tumkur,Lady Finger,23,32
+2025-05-08,Tumkur,Spinach,11,27
+2025-05-08,Tumkur,Coriander,30,41
+2025-05-08,Tumkur,Capsicum,23,41
+2025-05-08,Tumkur,Green Chili,24,36
+2025-05-08,Tumkur,Pumpkin,25,34
+2025-05-08,Tumkur,Radish,14,30
+2025-05-08,Tumkur,Bitter Gourd,12,17
+2025-05-08,Tumkur,Bottle Gourd,16,32
+2025-05-08,Tumkur,Cucumber,28,39
+2025-05-08,Tumkur,Drumstick,27,46
+2025-05-08,Tumkur,Garlic,25,33
+2025-05-08,Shimoga,Tomato,17,22
+2025-05-08,Shimoga,Potato,24,42
+2025-05-08,Shimoga,Onion,13,25
+2025-05-08,Shimoga,Carrot,21,36
+2025-05-08,Shimoga,Cabbage,23,39
+2025-05-08,Shimoga,Cauliflower,26,44
+2025-05-08,Shimoga,Beans,16,35
+2025-05-08,Shimoga,Brinjal,26,43
+2025-05-08,Shimoga,Lady Finger,21,38
+2025-05-08,Shimoga,Spinach,22,31
+2025-05-08,Shimoga,Coriander,15,23
+2025-05-08,Shimoga,Capsicum,24,30
+2025-05-08,Shimoga,Green Chili,24,32
+2025-05-08,Shimoga,Pumpkin,20,39
+2025-05-08,Shimoga,Radish,24,32
+2025-05-08,Shimoga,Bitter Gourd,23,38
+2025-05-08,Shimoga,Bottle Gourd,19,36
+2025-05-08,Shimoga,Cucumber,27,32
+2025-05-08,Shimoga,Drumstick,19,26
+2025-05-08,Shimoga,Garlic,25,38
+2025-05-08,Raichur,Tomato,11,26
+2025-05-08,Raichur,Potato,12,21
+2025-05-08,Raichur,Onion,12,32
+2025-05-08,Raichur,Carrot,28,46
+2025-05-08,Raichur,Cabbage,26,46
+2025-05-08,Raichur,Cauliflower,26,37
+2025-05-08,Raichur,Beans,11,19
+2025-05-08,Raichur,Brinjal,19,32
+2025-05-08,Raichur,Lady Finger,23,33
+2025-05-08,Raichur,Spinach,16,22
+2025-05-08,Raichur,Coriander,13,24
+2025-05-08,Raichur,Capsicum,18,29
+2025-05-08,Raichur,Green Chili,17,31
+2025-05-08,Raichur,Pumpkin,12,21
+2025-05-08,Raichur,Radish,26,37
+2025-05-08,Raichur,Bitter Gourd,24,31
+2025-05-08,Raichur,Bottle Gourd,26,43
+2025-05-08,Raichur,Cucumber,24,42
+2025-05-08,Raichur,Drumstick,18,28
+2025-05-08,Raichur,Garlic,28,35
+2025-05-08,Bidar,Tomato,22,27
+2025-05-08,Bidar,Potato,21,40
+2025-05-08,Bidar,Onion,24,32
+2025-05-08,Bidar,Carrot,18,29
+2025-05-08,Bidar,Cabbage,16,25
+2025-05-08,Bidar,Cauliflower,28,45
+2025-05-08,Bidar,Beans,22,41
+2025-05-08,Bidar,Brinjal,14,23
+2025-05-08,Bidar,Lady Finger,10,22
+2025-05-08,Bidar,Spinach,13,18
+2025-05-08,Bidar,Coriander,27,37
+2025-05-08,Bidar,Capsicum,23,32
+2025-05-08,Bidar,Green Chili,16,26
+2025-05-08,Bidar,Pumpkin,13,19
+2025-05-08,Bidar,Radish,30,43
+2025-05-08,Bidar,Bitter Gourd,17,27
+2025-05-08,Bidar,Bottle Gourd,22,27
+2025-05-08,Bidar,Cucumber,11,26
+2025-05-08,Bidar,Drumstick,17,30
+2025-05-08,Bidar,Garlic,17,33
+2025-05-08,Bijapur,Tomato,22,39
+2025-05-08,Bijapur,Potato,19,25
+2025-05-08,Bijapur,Onion,16,35
+2025-05-08,Bijapur,Carrot,28,42
+2025-05-08,Bijapur,Cabbage,29,48
+2025-05-08,Bijapur,Cauliflower,26,46
+2025-05-08,Bijapur,Beans,14,33
+2025-05-08,Bijapur,Brinjal,25,38
+2025-05-08,Bijapur,Lady Finger,30,36
+2025-05-08,Bijapur,Spinach,29,43
+2025-05-08,Bijapur,Coriander,24,32
+2025-05-08,Bijapur,Capsicum,26,37
+2025-05-08,Bijapur,Green Chili,17,30
+2025-05-08,Bijapur,Pumpkin,22,37
+2025-05-08,Bijapur,Radish,26,37
+2025-05-08,Bijapur,Bitter Gourd,13,31
+2025-05-08,Bijapur,Bottle Gourd,27,39
+2025-05-08,Bijapur,Cucumber,21,34
+2025-05-08,Bijapur,Drumstick,24,41
+2025-05-08,Bijapur,Garlic,11,18
+2025-05-08,Chikmagalur,Tomato,16,32
+2025-05-08,Chikmagalur,Potato,25,31
+2025-05-08,Chikmagalur,Onion,12,27
+2025-05-08,Chikmagalur,Carrot,30,35
+2025-05-08,Chikmagalur,Cabbage,23,42
+2025-05-08,Chikmagalur,Cauliflower,23,41
+2025-05-08,Chikmagalur,Beans,27,45
+2025-05-08,Chikmagalur,Brinjal,13,28
+2025-05-08,Chikmagalur,Lady Finger,26,34
+2025-05-08,Chikmagalur,Spinach,16,30
+2025-05-08,Chikmagalur,Coriander,27,39
+2025-05-08,Chikmagalur,Capsicum,20,35
+2025-05-08,Chikmagalur,Green Chili,15,26
+2025-05-08,Chikmagalur,Pumpkin,10,22
+2025-05-08,Chikmagalur,Radish,21,38
+2025-05-08,Chikmagalur,Bitter Gourd,11,30
+2025-05-08,Chikmagalur,Bottle Gourd,28,34
+2025-05-08,Chikmagalur,Cucumber,10,30
+2025-05-08,Chikmagalur,Drumstick,19,27
+2025-05-08,Chikmagalur,Garlic,27,46
+2025-05-08,Hassan,Tomato,22,32
+2025-05-08,Hassan,Potato,20,25
+2025-05-08,Hassan,Onion,15,31
+2025-05-08,Hassan,Carrot,29,46
+2025-05-08,Hassan,Cabbage,12,26
+2025-05-08,Hassan,Cauliflower,13,20
+2025-05-08,Hassan,Beans,17,34
+2025-05-08,Hassan,Brinjal,21,41
+2025-05-08,Hassan,Lady Finger,25,44
+2025-05-08,Hassan,Spinach,28,46
+2025-05-08,Hassan,Coriander,19,35
+2025-05-08,Hassan,Capsicum,13,19
+2025-05-08,Hassan,Green Chili,26,39
+2025-05-08,Hassan,Pumpkin,25,36
+2025-05-08,Hassan,Radish,24,39
+2025-05-08,Hassan,Bitter Gourd,20,26
+2025-05-08,Hassan,Bottle Gourd,25,33
+2025-05-08,Hassan,Cucumber,23,36
+2025-05-08,Hassan,Drumstick,14,34
+2025-05-08,Hassan,Garlic,22,37
+2025-05-08,Mandya,Tomato,21,32
+2025-05-08,Mandya,Potato,28,43
+2025-05-08,Mandya,Onion,23,42
+2025-05-08,Mandya,Carrot,19,37
+2025-05-08,Mandya,Cabbage,26,31
+2025-05-08,Mandya,Cauliflower,12,27
+2025-05-08,Mandya,Beans,25,40
+2025-05-08,Mandya,Brinjal,12,23
+2025-05-08,Mandya,Lady Finger,10,30
+2025-05-08,Mandya,Spinach,23,37
+2025-05-08,Mandya,Coriander,25,39
+2025-05-08,Mandya,Capsicum,14,28
+2025-05-08,Mandya,Green Chili,18,36
+2025-05-08,Mandya,Pumpkin,12,22
+2025-05-08,Mandya,Radish,13,24
+2025-05-08,Mandya,Bitter Gourd,20,31
+2025-05-08,Mandya,Bottle Gourd,26,42
+2025-05-08,Mandya,Cucumber,12,23
+2025-05-08,Mandya,Drumstick,16,23
+2025-05-08,Mandya,Garlic,11,21
+2025-05-08,Gulbarga,Tomato,28,45
+2025-05-08,Gulbarga,Potato,14,29
+2025-05-08,Gulbarga,Onion,22,30
+2025-05-08,Gulbarga,Carrot,17,24
+2025-05-08,Gulbarga,Cabbage,27,35
+2025-05-08,Gulbarga,Cauliflower,21,35
+2025-05-08,Gulbarga,Beans,25,37
+2025-05-08,Gulbarga,Brinjal,30,44
+2025-05-08,Gulbarga,Lady Finger,18,32
+2025-05-08,Gulbarga,Spinach,25,41
+2025-05-08,Gulbarga,Coriander,19,34
+2025-05-08,Gulbarga,Capsicum,17,30
+2025-05-08,Gulbarga,Green Chili,22,40
+2025-05-08,Gulbarga,Pumpkin,30,42
+2025-05-08,Gulbarga,Radish,12,19
+2025-05-08,Gulbarga,Bitter Gourd,19,26
+2025-05-08,Gulbarga,Bottle Gourd,30,50
+2025-05-08,Gulbarga,Cucumber,19,37
+2025-05-08,Gulbarga,Drumstick,16,28
+2025-05-08,Gulbarga,Garlic,14,23
+2025-05-08,Kolar,Tomato,22,37
+2025-05-08,Kolar,Potato,23,33
+2025-05-08,Kolar,Onion,27,39
+2025-05-08,Kolar,Carrot,25,37
+2025-05-08,Kolar,Cabbage,17,23
+2025-05-08,Kolar,Cauliflower,18,25
+2025-05-08,Kolar,Beans,19,39
+2025-05-08,Kolar,Brinjal,13,19
+2025-05-08,Kolar,Lady Finger,25,43
+2025-05-08,Kolar,Spinach,20,34
+2025-05-08,Kolar,Coriander,25,31
+2025-05-08,Kolar,Capsicum,21,37
+2025-05-08,Kolar,Green Chili,29,44
+2025-05-08,Kolar,Pumpkin,29,46
+2025-05-08,Kolar,Radish,11,16
+2025-05-08,Kolar,Bitter Gourd,24,35
+2025-05-08,Kolar,Bottle Gourd,29,48
+2025-05-08,Kolar,Cucumber,10,28
+2025-05-08,Kolar,Drumstick,28,45
+2025-05-08,Kolar,Garlic,19,35
+2025-05-08,Chitradurga,Tomato,26,35
+2025-05-08,Chitradurga,Potato,27,39
+2025-05-08,Chitradurga,Onion,18,26
+2025-05-08,Chitradurga,Carrot,21,36
+2025-05-08,Chitradurga,Cabbage,25,45
+2025-05-08,Chitradurga,Cauliflower,13,30
+2025-05-08,Chitradurga,Beans,29,44
+2025-05-08,Chitradurga,Brinjal,23,39
+2025-05-08,Chitradurga,Lady Finger,20,38
+2025-05-08,Chitradurga,Spinach,23,42
+2025-05-08,Chitradurga,Coriander,20,40
+2025-05-08,Chitradurga,Capsicum,16,33
+2025-05-08,Chitradurga,Green Chili,29,49
+2025-05-08,Chitradurga,Pumpkin,10,19
+2025-05-08,Chitradurga,Radish,10,17
+2025-05-08,Chitradurga,Bitter Gourd,15,25
+2025-05-08,Chitradurga,Bottle Gourd,19,35
+2025-05-08,Chitradurga,Cucumber,20,33
+2025-05-08,Chitradurga,Drumstick,27,36
+2025-05-08,Chitradurga,Garlic,24,38
+2025-05-08,Udupi,Tomato,16,36
+2025-05-08,Udupi,Potato,28,43
+2025-05-08,Udupi,Onion,16,27
+2025-05-08,Udupi,Carrot,13,19
+2025-05-08,Udupi,Cabbage,17,35
+2025-05-08,Udupi,Cauliflower,12,23
+2025-05-08,Udupi,Beans,27,39
+2025-05-08,Udupi,Brinjal,28,45
+2025-05-08,Udupi,Lady Finger,16,33
+2025-05-08,Udupi,Spinach,24,35
+2025-05-08,Udupi,Coriander,17,36
+2025-05-08,Udupi,Capsicum,12,22
+2025-05-08,Udupi,Green Chili,26,45
+2025-05-08,Udupi,Pumpkin,16,28
+2025-05-08,Udupi,Radish,27,36
+2025-05-08,Udupi,Bitter Gourd,13,19
+2025-05-08,Udupi,Bottle Gourd,20,38
+2025-05-08,Udupi,Cucumber,24,37
+2025-05-08,Udupi,Drumstick,18,23
+2025-05-08,Udupi,Garlic,17,37
+2025-05-08,Dharwad,Tomato,27,35
+2025-05-08,Dharwad,Potato,15,31
+2025-05-08,Dharwad,Onion,10,24
+2025-05-08,Dharwad,Carrot,11,29
+2025-05-08,Dharwad,Cabbage,10,19
+2025-05-08,Dharwad,Cauliflower,10,19
+2025-05-08,Dharwad,Beans,22,38
+2025-05-08,Dharwad,Brinjal,29,39
+2025-05-08,Dharwad,Lady Finger,30,36
+2025-05-08,Dharwad,Spinach,19,37
+2025-05-08,Dharwad,Coriander,23,40
+2025-05-08,Dharwad,Capsicum,17,36
+2025-05-08,Dharwad,Green Chili,14,21
+2025-05-08,Dharwad,Pumpkin,13,23
+2025-05-08,Dharwad,Radish,18,25
+2025-05-08,Dharwad,Bitter Gourd,22,39
+2025-05-08,Dharwad,Bottle Gourd,20,40
+2025-05-08,Dharwad,Cucumber,15,20
+2025-05-08,Dharwad,Drumstick,30,49
+2025-05-08,Dharwad,Garlic,29,43
+2025-05-08,Haveri,Tomato,30,50
+2025-05-08,Haveri,Potato,19,28
+2025-05-08,Haveri,Onion,24,29
+2025-05-08,Haveri,Carrot,13,28
+2025-05-08,Haveri,Cabbage,16,32
+2025-05-08,Haveri,Cauliflower,11,16
+2025-05-08,Haveri,Beans,17,27
+2025-05-08,Haveri,Brinjal,27,47
+2025-05-08,Haveri,Lady Finger,18,30
+2025-05-08,Haveri,Spinach,19,35
+2025-05-08,Haveri,Coriander,24,40
+2025-05-08,Haveri,Capsicum,26,46
+2025-05-08,Haveri,Green Chili,12,27
+2025-05-08,Haveri,Pumpkin,21,28
+2025-05-08,Haveri,Radish,11,20
+2025-05-08,Haveri,Bitter Gourd,19,24
+2025-05-08,Haveri,Bottle Gourd,19,34
+2025-05-08,Haveri,Cucumber,25,35
+2025-05-08,Haveri,Drumstick,11,28
+2025-05-08,Haveri,Garlic,27,41
+2025-05-08,Bagalkot,Tomato,19,30
+2025-05-08,Bagalkot,Potato,26,43
+2025-05-08,Bagalkot,Onion,27,40
+2025-05-08,Bagalkot,Carrot,28,46
+2025-05-08,Bagalkot,Cabbage,14,24
+2025-05-08,Bagalkot,Cauliflower,26,40
+2025-05-08,Bagalkot,Beans,20,29
+2025-05-08,Bagalkot,Brinjal,10,21
+2025-05-08,Bagalkot,Lady Finger,17,28
+2025-05-08,Bagalkot,Spinach,25,33
+2025-05-08,Bagalkot,Coriander,22,41
+2025-05-08,Bagalkot,Capsicum,29,43
+2025-05-08,Bagalkot,Green Chili,21,27
+2025-05-08,Bagalkot,Pumpkin,12,23
+2025-05-08,Bagalkot,Radish,29,49
+2025-05-08,Bagalkot,Bitter Gourd,16,35
+2025-05-08,Bagalkot,Bottle Gourd,20,26
+2025-05-08,Bagalkot,Cucumber,16,22
+2025-05-08,Bagalkot,Drumstick,26,43
+2025-05-08,Bagalkot,Garlic,11,29
+2025-05-08,Ramanagara,Tomato,11,24
+2025-05-08,Ramanagara,Potato,12,26
+2025-05-08,Ramanagara,Onion,19,27
+2025-05-08,Ramanagara,Carrot,23,39
+2025-05-08,Ramanagara,Cabbage,21,38
+2025-05-08,Ramanagara,Cauliflower,21,39
+2025-05-08,Ramanagara,Beans,19,34
+2025-05-08,Ramanagara,Brinjal,19,39
+2025-05-08,Ramanagara,Lady Finger,24,33
+2025-05-08,Ramanagara,Spinach,16,26
+2025-05-08,Ramanagara,Coriander,23,30
+2025-05-08,Ramanagara,Capsicum,20,28
+2025-05-08,Ramanagara,Green Chili,30,36
+2025-05-08,Ramanagara,Pumpkin,12,28
+2025-05-08,Ramanagara,Radish,14,33
+2025-05-08,Ramanagara,Bitter Gourd,30,39
+2025-05-08,Ramanagara,Bottle Gourd,21,32
+2025-05-08,Ramanagara,Cucumber,20,37
+2025-05-08,Ramanagara,Drumstick,22,29
+2025-05-08,Ramanagara,Garlic,15,21
+2025-05-08,Yadgir,Tomato,18,35
+2025-05-08,Yadgir,Potato,26,31
+2025-05-08,Yadgir,Onion,16,31
+2025-05-08,Yadgir,Carrot,25,31
+2025-05-08,Yadgir,Cabbage,15,35
+2025-05-08,Yadgir,Cauliflower,18,31
+2025-05-08,Yadgir,Beans,20,25
+2025-05-08,Yadgir,Brinjal,26,40
+2025-05-08,Yadgir,Lady Finger,28,46
+2025-05-08,Yadgir,Spinach,21,35
+2025-05-08,Yadgir,Coriander,24,44
+2025-05-08,Yadgir,Capsicum,27,33
+2025-05-08,Yadgir,Green Chili,26,43
+2025-05-08,Yadgir,Pumpkin,19,36
+2025-05-08,Yadgir,Radish,13,31
+2025-05-08,Yadgir,Bitter Gourd,11,29
+2025-05-08,Yadgir,Bottle Gourd,27,34
+2025-05-08,Yadgir,Cucumber,25,41
+2025-05-08,Yadgir,Drumstick,22,27
+2025-05-08,Yadgir,Garlic,26,41
+2025-05-08,Chikkaballapur,Tomato,29,43
+2025-05-08,Chikkaballapur,Potato,24,41
+2025-05-08,Chikkaballapur,Onion,18,36
+2025-05-08,Chikkaballapur,Carrot,23,28
+2025-05-08,Chikkaballapur,Cabbage,10,19
+2025-05-08,Chikkaballapur,Cauliflower,11,28
+2025-05-08,Chikkaballapur,Beans,17,23
+2025-05-08,Chikkaballapur,Brinjal,26,34
+2025-05-08,Chikkaballapur,Lady Finger,10,20
+2025-05-08,Chikkaballapur,Spinach,12,19
+2025-05-08,Chikkaballapur,Coriander,21,32
+2025-05-08,Chikkaballapur,Capsicum,28,40
+2025-05-08,Chikkaballapur,Green Chili,27,33
+2025-05-08,Chikkaballapur,Pumpkin,24,43
+2025-05-08,Chikkaballapur,Radish,21,29
+2025-05-08,Chikkaballapur,Bitter Gourd,22,37
+2025-05-08,Chikkaballapur,Bottle Gourd,24,44
+2025-05-08,Chikkaballapur,Cucumber,25,34
+2025-05-08,Chikkaballapur,Drumstick,27,34
+2025-05-08,Chikkaballapur,Garlic,29,34
+2025-05-08,Kodagu,Tomato,11,17
+2025-05-08,Kodagu,Potato,28,47
+2025-05-08,Kodagu,Onion,24,29
+2025-05-08,Kodagu,Carrot,21,29
+2025-05-08,Kodagu,Cabbage,22,30
+2025-05-08,Kodagu,Cauliflower,15,27
+2025-05-08,Kodagu,Beans,18,23
+2025-05-08,Kodagu,Brinjal,23,30
+2025-05-08,Kodagu,Lady Finger,20,34
+2025-05-08,Kodagu,Spinach,15,26
+2025-05-08,Kodagu,Coriander,24,44
+2025-05-08,Kodagu,Capsicum,28,38
+2025-05-08,Kodagu,Green Chili,20,38
+2025-05-08,Kodagu,Pumpkin,13,22
+2025-05-08,Kodagu,Radish,14,31
+2025-05-08,Kodagu,Bitter Gourd,12,24
+2025-05-08,Kodagu,Bottle Gourd,26,37
+2025-05-08,Kodagu,Cucumber,26,40
+2025-05-08,Kodagu,Drumstick,23,32
+2025-05-08,Kodagu,Garlic,27,38
+2025-05-08,Vijayapura,Tomato,11,25
+2025-05-08,Vijayapura,Potato,21,27
+2025-05-08,Vijayapura,Onion,19,38
+2025-05-08,Vijayapura,Carrot,29,37
+2025-05-08,Vijayapura,Cabbage,10,20
+2025-05-08,Vijayapura,Cauliflower,13,20
+2025-05-08,Vijayapura,Beans,28,46
+2025-05-08,Vijayapura,Brinjal,23,37
+2025-05-08,Vijayapura,Lady Finger,17,25
+2025-05-08,Vijayapura,Spinach,28,37
+2025-05-08,Vijayapura,Coriander,24,35
+2025-05-08,Vijayapura,Capsicum,12,28
+2025-05-08,Vijayapura,Green Chili,25,44
+2025-05-08,Vijayapura,Pumpkin,20,36
+2025-05-08,Vijayapura,Radish,28,41
+2025-05-08,Vijayapura,Bitter Gourd,24,30
+2025-05-08,Vijayapura,Bottle Gourd,10,16
+2025-05-08,Vijayapura,Cucumber,26,32
+2025-05-08,Vijayapura,Drumstick,30,46
+2025-05-08,Vijayapura,Garlic,13,23
+2025-05-08,Gadag,Tomato,16,33
+2025-05-08,Gadag,Potato,16,23
+2025-05-08,Gadag,Onion,21,30
+2025-05-08,Gadag,Carrot,24,32
+2025-05-08,Gadag,Cabbage,13,33
+2025-05-08,Gadag,Cauliflower,22,31
+2025-05-08,Gadag,Beans,10,23
+2025-05-08,Gadag,Brinjal,16,23
+2025-05-08,Gadag,Lady Finger,11,26
+2025-05-08,Gadag,Spinach,14,27
+2025-05-08,Gadag,Coriander,29,40
+2025-05-08,Gadag,Capsicum,23,29
+2025-05-08,Gadag,Green Chili,25,31
+2025-05-08,Gadag,Pumpkin,12,27
+2025-05-08,Gadag,Radish,29,49
+2025-05-08,Gadag,Bitter Gourd,19,29
+2025-05-08,Gadag,Bottle Gourd,27,44
+2025-05-08,Gadag,Cucumber,27,38
+2025-05-08,Gadag,Drumstick,12,18
+2025-05-08,Gadag,Garlic,29,41
+2025-05-08,Karwar,Tomato,22,27
+2025-05-08,Karwar,Potato,15,35
+2025-05-08,Karwar,Onion,18,37
+2025-05-08,Karwar,Carrot,26,40
+2025-05-08,Karwar,Cabbage,16,31
+2025-05-08,Karwar,Cauliflower,29,44
+2025-05-08,Karwar,Beans,16,27
+2025-05-08,Karwar,Brinjal,26,33
+2025-05-08,Karwar,Lady Finger,15,24
+2025-05-08,Karwar,Spinach,18,29
+2025-05-08,Karwar,Coriander,19,27
+2025-05-08,Karwar,Capsicum,11,31
+2025-05-08,Karwar,Green Chili,27,43
+2025-05-08,Karwar,Pumpkin,16,29
+2025-05-08,Karwar,Radish,22,36
+2025-05-08,Karwar,Bitter Gourd,20,31
+2025-05-08,Karwar,Bottle Gourd,19,34
+2025-05-08,Karwar,Cucumber,11,27
+2025-05-08,Karwar,Drumstick,18,35
+2025-05-08,Karwar,Garlic,15,30
+2025-05-08,Chamarajanagar,Tomato,13,29
+2025-05-08,Chamarajanagar,Potato,10,22
+2025-05-08,Chamarajanagar,Onion,18,26
+2025-05-08,Chamarajanagar,Carrot,11,29
+2025-05-08,Chamarajanagar,Cabbage,26,33
+2025-05-08,Chamarajanagar,Cauliflower,21,29
+2025-05-08,Chamarajanagar,Beans,17,37
+2025-05-08,Chamarajanagar,Brinjal,14,20
+2025-05-08,Chamarajanagar,Lady Finger,18,31
+2025-05-08,Chamarajanagar,Spinach,20,39
+2025-05-08,Chamarajanagar,Coriander,21,41
+2025-05-08,Chamarajanagar,Capsicum,28,40
+2025-05-08,Chamarajanagar,Green Chili,16,22
+2025-05-08,Chamarajanagar,Pumpkin,18,34
+2025-05-08,Chamarajanagar,Radish,16,30
+2025-05-08,Chamarajanagar,Bitter Gourd,10,26
+2025-05-08,Chamarajanagar,Bottle Gourd,11,24
+2025-05-08,Chamarajanagar,Cucumber,25,45
+2025-05-08,Chamarajanagar,Drumstick,22,36
+2025-05-08,Chamarajanagar,Garlic,28,39

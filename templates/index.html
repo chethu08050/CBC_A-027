@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat with Gemini - Enhanced Indian Languages</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <style>
+    /* Dark theme styles */
+    body {
+      background-color: #121826;
+      color: #e2e8f0;
+    }
+
+    /* Add offline styles */
+    .offline {
+      opacity: 0.7;
+    }
+
+    .offline-message {
+      display: none;
+      text-align: center;
+      padding: 1rem;
+      background-color: #7f1d1d;
+      color: #fecaca;
+      margin: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    .offline .offline-message {
+      display: block;
+      animation: fadeInDown 0.5s ease-out;
+    }
+
+    .recording {
+      background-color: #ef4444 !important;
+      animation: pulse 1.5s infinite;
+      box-shadow: 0 0 15px rgba(239, 68, 68, 0.7);
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; box-shadow: 0 0 15px rgba(239, 68, 68, 0.7); }
+      50% { opacity: 0.6; box-shadow: 0 0 25px rgba(239, 68, 68, 0.9); }
+      100% { opacity: 1; box-shadow: 0 0 15px rgba(239, 68, 68, 0.7); }
+    }
+
+    .active {
+      background-color: #3b82f6 !important;
+      color: white;
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+    }
+
+    .typing-indicator {
+      display: flex;
+      align-items: center;
+    }
+
+    .typing-dots {
+      display: flex;
+    }
+
+    .typing-dots span {
+      animation: bounce 1s infinite;
+      margin-right: 2px;
+      font-size: 20px;
+      line-height: 10px;
+    }
+
+    .typing-dots span:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-dots span:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .voice-status {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #4b5563;
+      transition: all 0.3s ease;
+    }
+
+    .voice-status.speaking {
+      background-color: #10b981;
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.7);
+      animation: pulse-green 1.5s infinite;
+    }
+    
+    @keyframes pulse-green {
+      0% { box-shadow: 0 0 15px rgba(16, 185, 129, 0.7); }
+      50% { box-shadow: 0 0 25px rgba(16, 185, 129, 0.9); }
+      100% { box-shadow: 0 0 15px rgba(16, 185, 129, 0.7); }
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #1f2937;
+      color: #e5e7eb;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s, transform 0.3s;
+      transform: translateY(10px);
+      font-size: 12px;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .lang-selector {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .lang-btn {
+      padding: 4px 10px;
+      border-radius: 15px;
+      font-size: 12px;
+      border: 1px solid #374151;
+      background-color: #1f2937;
+      cursor: pointer;
+    }
+
+    .lang-btn:hover {
+      background-color: #2d3748;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .lang-btn.active {
+      background-color: #3b82f6;
+      color: white;
+      border-color: #2563eb;
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+    }
+    
+    /* Message animations */
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Button hover effects */
+    .btn-hover {
+      transition: all 0.3s ease;
+    }
+    
+    .btn-hover:hover {
+      transform: translateY(-2px);
+    }
+    
+    /* Chat container with glass morphism */
+    .glass-container {
+      background: rgba(31, 41, 55, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    
+    /* Input field styling */
+    .input-glow:focus {
+      box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+    }
+    
+    /* Speak button effects */
+    .speak-button {
+      transition: all 0.3s ease;
+    }
+    
+    .speak-button:hover {
+      transform: scale(1.2);
+    }
+    
+    /* Chat bubbles with enhanced styling */
+    .user-bubble {
+      background: linear-gradient(135deg, #4338ca 0%, #3b82f6 100%);
+      box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    }
+    
+    .bot-bubble {
+      background: #2d3748;
+      box-shadow: 0 4px 15px rgba(45, 55, 72, 0.3);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-4">
+  <div class="w-full max-w-2xl glass-container rounded-2xl flex flex-col h-[90vh]">
+    <div class="offline-message">
+      You are currently offline. Some features may be limited.
+    </div>
+
+    <div class="p-4 border-b border-gray-700 text-lg font-semibold text-blue-400 flex justify-between items-center">
+      <div class="flex items-center">
+        <span>💬JanMitra AI</span>
+        <div id="voiceStatus" class="voice-status ml-2"></div>
+      </div>
+      <div class="flex space-x-2">
+        <button id="autoReadButton" onclick="toggleAutoRead()" class="tooltip bg-gray-800 hover:bg-gray-700 px-3 py-1 rounded-md active btn-hover">
+          🔊 Auto
+          <span class="tooltiptext">Toggle auto-read responses</span>
+        </button>
+        <button id="stopSpeakingButton" onclick="stopSpeaking()" class="tooltip bg-gray-800 hover:bg-gray-700 p-2 rounded-full btn-hover">
+          🔇
+          <span class="tooltiptext">Stop speaking</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Language selector -->
+    <div class="px-4 pt-3 pb-1 border-b border-gray-700">
+      <div class="lang-selector">
+        <button class="lang-btn active" data-lang="en-IN" onclick="changeLanguage('en-IN')">English</button>
+        <button class="lang-btn" data-lang="hi-IN" onclick="changeLanguage('hi-IN')">Hindi</button>
+        <button class="lang-btn" data-lang="kn-IN" onclick="changeLanguage('kn-IN')">Kannada</button>
+        <button class="lang-btn" data-lang="ml-IN" onclick="changeLanguage('ml-IN')">Malayalam</button>
+        <button class="lang-btn" data-lang="ta-IN" onclick="changeLanguage('ta-IN')">Tamil</button>
+        <button class="lang-btn" data-lang="te-IN" onclick="changeLanguage('te-IN')">Telugu</button>
+        <button class="lang-btn" data-lang="auto" onclick="changeLanguage('auto')">Auto Detect</button>
+      </div>
+    </div>
+
+    <div id="chatBox" class="flex-1 p-4 overflow-y-auto flex flex-col space-y-2 bg-gray-900"></div>
+
+    <div class="p-4 border-t border-gray-700 flex space-x-2">
+      <input id="userInput" type="text" placeholder="Type your message..."
+             class="flex-1 p-2 border rounded-md bg-gray-800 border-gray-700 text-gray-100 input-glow focus:outline-none focus:border-blue-500" onkeydown="if(event.key==='Enter') sendMessage()" />
+      <button id="voiceButton" onclick="toggleSpeechInput(event)" 
+              class="tooltip bg-gray-800 hover:bg-gray-700 p-2 rounded-full btn-hover">
+        🎤
+        <span class="tooltiptext">Click to speak (Shift+Click for continuous mode)</span>
+      </button>
+      <button onclick="sendMessage()"
+              class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 btn-hover">Send</button>
+    </div>
+  </div>
+  
+  <script>
+    let conversation = [];
+    let synthesis = window.speechSynthesis;
+    let recognition;
+    let autoReadResponses = true; // Default to auto-read
+    let continuousListening = false; // Control for continuous listening mode
+    let listeningActive = false; // Track if we're currently listening
+    
+    // Initialize GSAP timeline for animations
+    const tl = gsap.timeline();
+
+    // Check online status and update UI
+    function updateOnlineStatus() {
+      const container = document.querySelector('.glass-container');
+      if (!navigator.onLine) {
+        container.classList.add('offline');
+        gsap.to('.offline-message', {
+          display: 'block',
+          opacity: 1,
+          y: 0,
+          duration: 0.5
+        });
+      } else {
+        container.classList.remove('offline');
+        gsap.to('.offline-message', {
+          opacity: 0,
+          y: -20,
+          duration: 0.5,
+          onComplete: () => {
+            document.querySelector('.offline-message').style.display = 'none';
+          }
+        });
+      }
+    }
+
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+
+    // Language settings
+    let currentLanguage = "en-IN"; // Default to English
+    const languageOptions = {
+      "hi-IN": { name: "Hindi", voiceURI: "Hindi" },
+      "kn-IN": { name: "Kannada", voiceURI: "Kannada" },
+      "ml-IN": { name: "Malayalam", voiceURI: "Malayalam" },
+      "ta-IN": { name: "Tamil", voiceURI: "Tamil" },
+      "te-IN": { name: "Telugu", voiceURI: "Telugu" },
+      "en-IN": { name: "Indian English", voiceURI: "en-IN" },
+      "auto": { name: "Auto Detect", voiceURI: "en-IN" } // Default voice for auto detect
+    };
+
+    // Initialize speech recognition if available
+    function initSpeechRecognition() {
+      if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SpeechRecognition();
+        recognition.continuous = false;
+        recognition.interimResults = true;
+        recognition.lang = currentLanguage; // Use current language setting
+        
+        recognition.onresult = (event) => {
+          const transcript = event.results[0][0].transcript;
+          document.getElementById("userInput").value = transcript;
+          
+          // If final result and in continuous mode, submit automatically
+          if (event.results[0].isFinal && continuousListening) {
+            sendMessage();
+          }
+        };
+        
+        recognition.onerror = (event) => {
+          console.error("Speech recognition error", event.error);
+          updateVoiceButtonState(false);
+        };
+        
+        recognition.onend = () => {
+          updateVoiceButtonState(false);
+          
+          // If in continuous mode, restart listening
+          if (continuousListening && listeningActive) {
+            setTimeout(() => {
+              recognition.start();
+              updateVoiceButtonState(true);
+            }, 300);
+          }
+        };
+
+        return true;
+      } else {
+        console.error("Speech recognition not supported in this browser");
+        return false;
+      }
+    }
+
+    function updateVoiceButtonState(isRecording) {
+      const voiceButton = document.getElementById("voiceButton");
+      if (isRecording) {
+        voiceButton.classList.add("recording");
+        voiceButton.innerHTML = "⏹️";
+        listeningActive = true;
+        
+        // Add recording animation
+        gsap.to(voiceButton, {
+          scale: 1.1,
+          repeat: -1,
+          yoyo: true,
+          duration: 0.8
+        });
+      } else {
+        voiceButton.classList.remove("recording");
+        voiceButton.innerHTML = continuousListening ? "🎤 (Auto)" : "🎤";
+        listeningActive = false;
+        
+        // Remove recording animation
+        gsap.killTweensOf(voiceButton);
+        gsap.to(voiceButton, {
+          scale: 1,
+          duration: 0.3
+        });
+      }
+    }
+
+    // Toggle speech recognition
+    function toggleSpeechInput(event) {
+      if (!recognition && !initSpeechRecognition()) {
+        alert("Speech recognition is not supported in your browser.");
+        return;
+      }
+      
+      // Update recognition language
+      recognition.lang = currentLanguage === "auto" ? "en-IN" : currentLanguage;
+      
+      // Toggle continuous mode with shift key press
+      if (event && event.shiftKey) {
+        continuousListening = !continuousListening;
+        document.getElementById("voiceButton").innerHTML = continuousListening ? "🎤 (Auto)" : "🎤";
+        
+        // Animation for mode change
+        gsap.fromTo("#voiceButton", 
+          {scale: 1.2, rotation: 0},
+          {scale: 1, rotation: 360, duration: 0.5, ease: "back.out(1.7)"}
+        );
+        
+        // If turning on continuous and not already listening, start it
+        if (continuousListening && !listeningActive) {
+          recognition.start();
+          updateVoiceButtonState(true);
+        }
+        return;
+      }
+      
+      // Regular toggle behavior
+      if (listeningActive) {
+        recognition.stop();
+        updateVoiceButtonState(false);
+      } else {
+        recognition.start();
+        updateVoiceButtonState(true);
+      }
+    }
+
+    // Text to speech function with improved pronunciation
+    function speakText(text, lang) {
+      if (synthesis.speaking) {
+        synthesis.cancel();
+      }
+      
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang || currentLanguage;
+      
+      // Apply improved voice settings
+      applyOptimalVoiceSettings(utterance);
+      
+      synthesis.speak(utterance);
+      
+      // Toggle speak button appearance with animation
+      const speakButtons = document.querySelectorAll('.speak-button');
+      speakButtons.forEach(btn => {
+        btn.disabled = true;
+        btn.innerHTML = "🔊";
+        gsap.to(btn, {scale: 1.2, repeat: 1, yoyo: true, duration: 0.3});
+      });
+      
+      // Update voice indicator with animation
+      document.getElementById("voiceStatus").classList.add("speaking");
+      gsap.to("#voiceStatus", {
+        scale: 1.5,
+        repeat: -1,
+        yoyo: true,
+        duration: 1
+      });
+      
+      utterance.onend = function() {
+        speakButtons.forEach(btn => {
+          btn.disabled = false;
+          btn.innerHTML = "🔊";
+          gsap.to(btn, {scale: 1, duration: 0.3});
+        });
+        document.getElementById("voiceStatus").classList.remove("speaking");
+        gsap.killTweensOf("#voiceStatus");
+        gsap.to("#voiceStatus", {scale: 1, duration: 0.3});
+        
+        // If in continuous mode, start listening again after speaking finishes
+        if (continuousListening && !listeningActive) {
+          setTimeout(() => {
+            recognition.start();
+            updateVoiceButtonState(true);
+          }, 500);
+        }
+      };
+    }
+
+    // Apply optimized voice settings for Indian languages
+    function applyOptimalVoiceSettings(utterance) {
+      // Get available voices
+      const voices = synthesis.getVoices();
+      console.log("Available voices:", voices.map(v => `${v.name} (${v.lang})`).join(", "));
+      
+      // Find the best voice for the current language
+      let selectedVoice = null;
+      
+      // Try to find an exact match first
+      selectedVoice = voices.find(voice => 
+        voice.lang === utterance.lang || 
+        voice.name.includes(languageOptions[utterance.lang]?.name)
+      );
+      
+      // If no exact match, try to find any Indian voice
+      if (!selectedVoice) {
+        selectedVoice = voices.find(voice => 
+          voice.lang.includes('IN') || 
+          voice.name.includes('Indian')
+        );
+      }
+      
+      // If still no match, try to find any voice that might work
+      if (!selectedVoice && utterance.lang === "hi-IN") {
+        selectedVoice = voices.find(voice => 
+          voice.lang.includes('hi') || 
+          voice.name.includes('Hindi')
+        );
+      } else if (!selectedVoice && utterance.lang === "kn-IN") {
+        selectedVoice = voices.find(voice => 
+          voice.lang.includes('kn') || 
+          voice.name.includes('Kannada')
+        );
+      }
+      
+      // If we found a voice, use it
+      if (selectedVoice) {
+        console.log(`Using voice: ${selectedVoice.name} (${selectedVoice.lang})`);
+        utterance.voice = selectedVoice;
+      } else {
+        console.log("No suitable voice found, using default");
+      }
+      
+      // Optimize settings for clarity
+      utterance.rate = 0.9;  // Slightly slower for better clarity
+      utterance.pitch = 1.0; // Normal pitch
+      utterance.volume = 1.0; // Full volume
+    }
+
+    // Change language with animation
+    function changeLanguage(lang) {
+      currentLanguage = lang;
+      
+      // Update UI with animation
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        if (btn.dataset.lang === lang) {
+          btn.classList.add('active');
+          gsap.fromTo(btn, 
+            {scale: 1},
+            {scale: 1.1, duration: 0.3, yoyo: true, repeat: 1}
+          );
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+      
+      // Update recognition language if initialized
+      if (recognition && lang !== "auto") {
+        recognition.lang = lang;
+      }
+      
+      // Log change
+      console.log(`Language changed to: ${languageOptions[lang].name}`);
+    }
+
+    // Toggle auto-read responses with animation
+    function toggleAutoRead() {
+      autoReadResponses = !autoReadResponses;
+      const autoReadBtn = document.getElementById("autoReadButton");
+      autoReadBtn.innerHTML = autoReadResponses ? "🔊 Auto" : "🔊 Manual";
+      autoReadBtn.classList.toggle("active", autoReadResponses);
+      
+      // Add animation
+      gsap.fromTo(autoReadBtn, 
+        {scale: 1}, 
+        {scale: 1.1, duration: 0.2, yoyo: true, repeat: 1}
+      );
+    }
+
+    // Stop speaking with animation
+    function stopSpeaking() {
+      if (synthesis.speaking) {
+        synthesis.cancel();
+        document.getElementById("voiceStatus").classList.remove("speaking");
+        gsap.killTweensOf("#voiceStatus");
+        gsap.to("#voiceStatus", {scale: 1, duration: 0.3});
+        
+        // Animate stop button
+        gsap.fromTo("#stopSpeakingButton", 
+          {scale: 1}, 
+          {scale: 1.2, duration: 0.2, yoyo: true, repeat: 1}
+        );
+      }
+    }
+
+    async function sendMessage() {
+      const input = document.getElementById("userInput");
+      const text = input.value.trim();
+      if (!text) return;
+
+      // Stop any ongoing speech when sending a new message
+      stopSpeaking();
+
+      // If in voice recognition mode, stop listening
+      if (listeningActive) {
+        recognition.stop();
+        updateVoiceButtonState(false);
+      }
+
+      // Animate send button
+      gsap.fromTo(document.querySelector('button[onclick="sendMessage()"]'),
+        {scale: 1},
+        {scale: 1.2, duration: 0.2, yoyo: true, repeat: 1}
+      );
+
+      conversation.push({ role: "user", text });
+      renderChat();
+      input.value = "";
+
+      // Show typing indicator with animation
+      const typingIndicator = document.createElement("div");
+      typingIndicator.className = "p-3 my-2 rounded-xl max-w-[80%] bg-gray-800 text-gray-200 self-start typing-indicator";
+      typingIndicator.innerHTML = '<div class="typing-dots"><span>.</span><span>.</span><span>.</span></div>';
+      document.getElementById("chatBox").appendChild(typingIndicator);
+      
+      // Animate typing indicator entrance
+      gsap.fromTo(typingIndicator, 
+        {opacity: 0, x: -20},
+        {opacity: 1, x: 0, duration: 0.3, ease: "power2.out"}
+      );
+
+      try {
+        // Send message to Flask backend
+        const response = await fetch("/chat", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            message: text,
+            lang: currentLanguage
+          }),
+        });
+
+        const data = await response.json();
+        
+        // Remove typing indicator with animation
+        gsap.to(typingIndicator, {
+          opacity: 0,
+          x: -20,
+          duration: 0.3,
+          onComplete: () => {
+            document.getElementById("chatBox").removeChild(typingIndicator);
+          }
+        });
+        
+        const botReply = data.reply;
+        const detectedLang = data.detected_lang;
+        
+        conversation.push({ 
+          role: "gemini", 
+          text: botReply,
+          detectedLang: detectedLang
+        });
+        
+        renderChat();
+        
+        // Auto-read the response if enabled
+        if (autoReadResponses) {
+          speakText(botReply, detectedLang);
+        }
+      } catch (err) {
+        // Remove typing indicator with animation
+        gsap.to(typingIndicator, {
+          opacity: 0,
+          x: -20,
+          duration: 0.3,
+          onComplete: () => {
+            document.getElementById("chatBox").removeChild(typingIndicator);
+          }
+        });
+        
+        const errorMsg = "Error: Unable to get response from server.";
+        conversation.push({ role: "gemini", text: errorMsg });
+        renderChat();
+        
+        if (autoReadResponses) {
+          speakText(errorMsg);
+        }
+      }
+    }
+
+    function renderChat() {
+      const chatBox = document.getElementById("chatBox");
+      chatBox.innerHTML = "";
+      
+      conversation.forEach((msg, index) => {
+        const bubble = document.createElement("div");
+        
+        if (msg.role === "user") {
+          bubble.className = `p-3 my-2 rounded-xl max-w-[80%] user-bubble text-white self-end`;
+          bubble.innerText = msg.text;
+          
+          // Add to DOM first
+          chatBox.appendChild(bubble);
+          
+          // Then animate
+          gsap.fromTo(bubble, 
+            {opacity: 0, x: 20, scale: 0.9},
+            {opacity: 1, x: 0, scale: 1, duration: 0.4, ease: "power2.out"}
+          );
+        } else {
+          bubble.className = `p-3 my-2 rounded-xl max-w-[80%] bot-bubble text-gray-200 self-start flex items-start`;
+          
+          const messageText = document.createElement("span");
+          messageText.innerText = msg.text;
+          bubble.appendChild(messageText);
+          
+          const speakButton = document.createElement("button");
+          speakButton.className = "speak-button ml-2 text-sm bg-gray-700 hover:bg-gray-600 rounded-full w-6 h-6 flex items-center justify-center";
+          speakButton.innerHTML = "🔊";
+          speakButton.onclick = () => speakText(msg.text, msg.detectedLang);
+          bubble.appendChild(speakButton);
+          
+          // Add to DOM first
+          chatBox.appendChild(bubble);
+          
+          // Then animate
+          gsap.fromTo(bubble, 
+            {opacity: 0, x: -20, scale: 0.9},
+            {opacity: 1, x: 0, scale: 1, duration: 0.4, ease: "power2.out"}
+          );
+        }
+      });
+      
+      // Scroll to bottom with animation
+      gsap.to(chatBox, {
+        scrollTop: chatBox.scrollHeight,
+        duration: 0.5,
+        ease: "power2.out"
+      });
+    }
+
+    // Initialize voices on page load
+    function initVoices() {
+      // Force voice list update for Safari
+      speechSynthesis.getVoices();
+      
+      // Log available voices to console
+      setTimeout(() => {
+        const voices = speechSynthesis.getVoices();
+        console.log(`Loaded ${voices.length} voices:`);
+        voices.forEach(voice => {
+          console.log(`- ${voice.name} (${voice.lang}): ${voice.localService ? 'local' : 'remote'}`);
+        });
+      }, 100);
+    }
+    
+    // Animate the initial UI load
+    function animateUILoad() {
+      gsap.from(".glass-container", {
+        opacity: 0,
+        y: 30,
+        duration: 1,
+        ease: "power3.out"
+      });
+      
+      gsap.from(".lang-btn", {
+        opacity: 0,
+        y: 20,
+        stagger: 0.1,
+        duration: 0.5,
+        delay: 0.5
+      });
+    }
+    
+    // Initialize on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      // Animate UI
+      animateUILoad();
+      
+      // Check initial online status
+      updateOnlineStatus();
+
+      // Initialize speech voices
+      initVoices();
+      
+      // Initialize speech recognition if browser supports it
+      initSpeechRecognition();
+      
+      // Load initial greeting based on language
+      let greeting = "Hello! I'm JanMitra AI. How can I help?";
+      let greetingLang = "en-IN";
+      
+      if (currentLanguage === "hi-IN") {
+        greeting = "नमस्ते! मैं जेमिनी हूँ। मैं आपकी कैसे मदद कर सकता हूँ?";
+        greetingLang = "hi-IN";
+      } else if (currentLanguage === "kn-IN") {
+        greeting = "ನಮಸ್ಕಾರ! ನಾನು ಜೆಮಿನಿ. ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?";
+        greetingLang = "kn-IN";
+      } else if (currentLanguage === "ml-IN") {
+        greeting = "നമസ്കാരം! ഞാൻ ജെമിനിയാണ്. ഞാൻ നിങ്ങളെ എങ്ങനെ സഹായിക്കാം?";
+        greetingLang = "ml-IN";
+      } else if (currentLanguage === "ta-IN") {
+        greeting = "வணக்கம்! நான் ஜெமினி. நான் உங்களுக்கு எப்படி உதவலாம்?";
+        greetingLang = "ta-IN";
+      } else if (currentLanguage === "te-IN") {
+        greeting = "నమస్తే! నేను జెమిని. నేను మీకు ఎలా సహాయపడగలను?";
+        greetingLang = "te-IN";
+      }
+      
+      conversation.push({ 
+        role: "gemini", 
+        text: greeting,
+        detectedLang: greetingLang 
+      });
+      
+      renderChat();
+      
+      // Add a slight delay before speaking for better user experience
+      setTimeout(() => {
+        // Auto-speak the greeting with animation
+        if (autoReadResponses) {
+          speakText(greeting, greetingLang);
+        }
+      }, 800);
+    });
+    
+    // Add ambient background animation
+    function setupBackgroundAnimation() {
+      // Create gradient overlay on body
+      document.body.style.backgroundImage = 'radial-gradient(circle at 50% 50%, #1e293b 0%, #0f172a 100%)';
+      
+      // Create animated stars
+      const stars = 50;
+      const container = document.createElement('div');
+      container.style.position = 'fixed';
+      container.style.top = '0';
+      container.style.left = '0';
+      container.style.width = '100%';
+      container.style.height = '100%';
+      container.style.zIndex = '-1';
+      container.style.overflow = 'hidden';
+      document.body.appendChild(container);
+      
+      for (let i = 0; i < stars; i++) {
+        const star = document.createElement('div');
+        star.style.position = 'absolute';
+        star.style.width = Math.random() * 3 + 'px';
+        star.style.height = star.style.width;
+        star.style.borderRadius = '50%';
+        star.style.backgroundColor = 'rgba(255, 255, 255, ' + (Math.random() * 0.5 + 0.1) + ')';
+        star.style.top = Math.random() * 100 + '%';
+        star.style.left = Math.random() * 100 + '%';
+        container.appendChild(star);
+        
+        // Animate each star
+        gsap.to(star, {
+          opacity: Math.random() * 0.5 + 0.5,
+          duration: Math.random() * 3 + 2,
+          repeat: -1,
+          yoyo: true
+        });
+        
+        // Optional: make some stars slowly move
+        if (Math.random() > 0.7) {
+          gsap.to(star, {
+            x: Math.random() * 20 - 10,
+            y: Math.random() * 20 - 10,
+            duration: Math.random() * 20 + 10,
+            repeat: -1,
+            yoyo: true,
+            ease: "sine.inOut"
+          });
+        }
+      }
+    }
+    
+    // Call background animation setup
+    setupBackgroundAnimation();
+    
+    // Add input field animation
+    const userInput = document.getElementById('userInput');
+    userInput.addEventListener('focus', () => {
+      gsap.to(userInput, {
+        boxShadow: '0 0 10px rgba(59, 130, 246, 0.5)',
+        duration: 0.3
+      });
+    });
+    
+    userInput.addEventListener('blur', () => {
+      gsap.to(userInput, {
+        boxShadow: 'none',
+        duration: 0.3
+      });
+    });
+    
+    // Add button hover animations
+    document.querySelectorAll('.btn-hover').forEach(btn => {
+      btn.addEventListener('mouseenter', () => {
+        gsap.to(btn, {
+          y: -2,
+          duration: 0.3,
+          ease: "power2.out"
+        });
+      });
+      
+      btn.addEventListener('mouseleave', () => {
+        gsap.to(btn, {
+          y: 0,
+          duration: 0.3,
+          ease: "power2.out"
+        });
+      });
+    });
+  </script>
+</body>
+</html>
